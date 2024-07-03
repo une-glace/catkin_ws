@@ -1,0 +1,4 @@
+Symlinking /home/amov/catkin_ws/devel/share/A/cmake/AConfig.cmake
+Symlinking /home/amov/catkin_ws/devel/share/A/cmake/AConfig-version.cmake
+Symlinking /home/amov/catkin_ws/devel/lib/A/A
+Linked: (/home/amov/catkin_ws/devel/.private/A/lib/pkgconfig/A.pc, /home/amov/catkin_ws/devel/lib/pkgconfig/A.pc)

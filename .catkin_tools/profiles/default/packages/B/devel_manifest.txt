@@ -1,0 +1,6 @@
+B
+/home/amov/catkin_ws/devel/.private/B/cmake.lock /home/amov/catkin_ws/devel/./cmake.lock
+/home/amov/catkin_ws/devel/.private/B/share/B/cmake/BConfig.cmake /home/amov/catkin_ws/devel/share/B/cmake/BConfig.cmake
+/home/amov/catkin_ws/devel/.private/B/share/B/cmake/BConfig-version.cmake /home/amov/catkin_ws/devel/share/B/cmake/BConfig-version.cmake
+/home/amov/catkin_ws/devel/.private/B/lib/B/B /home/amov/catkin_ws/devel/lib/B/B
+/home/amov/catkin_ws/devel/.private/B/lib/pkgconfig/B.pc /home/amov/catkin_ws/devel/lib/pkgconfig/B.pc

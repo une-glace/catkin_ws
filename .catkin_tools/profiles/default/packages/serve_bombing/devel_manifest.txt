@@ -1,0 +1,6 @@
+serve_bombing
+/home/amov/catkin_ws/devel/.private/serve_bombing/cmake.lock /home/amov/catkin_ws/devel/./cmake.lock
+/home/amov/catkin_ws/devel/.private/serve_bombing/share/serve_bombing/cmake/serve_bombingConfig-version.cmake /home/amov/catkin_ws/devel/share/serve_bombing/cmake/serve_bombingConfig-version.cmake
+/home/amov/catkin_ws/devel/.private/serve_bombing/share/serve_bombing/cmake/serve_bombingConfig.cmake /home/amov/catkin_ws/devel/share/serve_bombing/cmake/serve_bombingConfig.cmake
+/home/amov/catkin_ws/devel/.private/serve_bombing/lib/serve_bombing/serve_bombing /home/amov/catkin_ws/devel/lib/serve_bombing/serve_bombing
+/home/amov/catkin_ws/devel/.private/serve_bombing/lib/pkgconfig/serve_bombing.pc /home/amov/catkin_ws/devel/lib/pkgconfig/serve_bombing.pc

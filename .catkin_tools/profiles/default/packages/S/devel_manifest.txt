@@ -1,0 +1,6 @@
+S
+/home/amov/catkin_ws/devel/.private/S/cmake.lock /home/amov/catkin_ws/devel/./cmake.lock
+/home/amov/catkin_ws/devel/.private/S/share/S/cmake/SConfig.cmake /home/amov/catkin_ws/devel/share/S/cmake/SConfig.cmake
+/home/amov/catkin_ws/devel/.private/S/share/S/cmake/SConfig-version.cmake /home/amov/catkin_ws/devel/share/S/cmake/SConfig-version.cmake
+/home/amov/catkin_ws/devel/.private/S/lib/S/S /home/amov/catkin_ws/devel/lib/S/S
+/home/amov/catkin_ws/devel/.private/S/lib/pkgconfig/S.pc /home/amov/catkin_ws/devel/lib/pkgconfig/S.pc
