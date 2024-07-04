@@ -6,6 +6,8 @@
 #include <mavros_msgs/SetMode.h>
 #include <mavros_msgs/State.h>
 #include <geometry_msgs/PoseStamped.h>
+#include <geometry_msgs/TwistStamped.h>
+
 #include <fstream>
 #include <sstream>
 #include <iostream>
@@ -24,6 +26,7 @@ mode mission_mode = mission;
 
 mavros_msgs::State current_state;
 geometry_msgs::PoseStamped local_pos;
+geometry_msgs::TwistStamped local_v;
 
 void state_sb(const mavros_msgs::State::ConstPtr& msg) {
 	current_state = *msg;
@@ -33,7 +36,10 @@ void local_pos_sb(const geometry_msgs::PoseStamped::ConstPtr& msg) {
 	local_pos = *msg;
 	
 }
-
+void local_v_sb(const geometry_msgs::TwistStamped::ConstPtr& msg)
+{
+	local_v = *msg;
+}
 // std::string port = "/dev/ttyUSB0"; // 根据实际情况修改串口设备号
 // int baudrate = 115200; // 根据实际情况修改波特率
 // serial::Serial serialPort(port, baudrate, serial::Timeout::simpleTimeout(1000));
@@ -45,6 +51,8 @@ int main(int argc, char** argv) {
 	ros::NodeHandle nh;
     ros::Subscriber state_sub = nh.subscribe<mavros_msgs::State>("/mavros/state", 10, state_sb);
 	ros::Subscriber plane_local_pos_sub = nh.subscribe<geometry_msgs::PoseStamped>("/mavros/local_position/pose", 1, local_pos_sb);
+	ros::Subscriber plane_local_v_sub = nh.subscribe<geometry_msgs::TwistStamped>("/mavros/local_position/velocity_local", 1, local_v_sb);
+
 	ros::Publisher target_pos_pub = nh.advertise<geometry_msgs::PoseStamped>("/mavros/setpoint_position/local", 10);
 	ros::ServiceClient arming_client = nh.serviceClient<mavros_msgs::CommandBool>("/mavros/cmd/arming");
 	ros::ServiceClient set_mode_client = nh.serviceClient<mavros_msgs::SetMode>("/mavros/set_mode");
@@ -113,7 +121,7 @@ int main(int argc, char** argv) {
                       }
                   }
               }
-               if(local_pos.pose.position.z>25)
+               if((local_v.twist.linear.x)*(local_v.twist.linear.x)+(local_v.twist.linear.y)*(local_v.twist.linear.y)+(local_v.twist.linear.z)*(local_v.twist.linear.z)>3)
               {	offb_set_mode.request.custom_mode = "OFFBOARD";mission_status=0;
 
 				if(set_mode_client.call(offb_set_mode)&&offb_set_mode.response.mode_sent){
