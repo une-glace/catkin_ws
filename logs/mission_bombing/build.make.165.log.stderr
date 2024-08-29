@@ -1,0 +1,139 @@
+[01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:610:13:[m[K [01;35m[Kwarning: [m[Kmulti-character character constant [[01;35m[K-Wmultichar[m[K]
+  msg.data = [01;35m[K'1\n'[m[K;//舵机控制
+             [01;35m[K^~~~~[m[K
+[01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:568:2:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K/[m[K’ token
+  [01;31m[K/[m[Kmavros/setpoint_velocity/cmd_vel
+  [01;31m[K^[m[K
+[01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:568:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kmavros[m[K’ was not declared in this scope
+  /[01;31m[Kmavros[m[K/setpoint_velocity/cmd_vel
+   [01;31m[K^~~~~~[m[K
+[01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:568:3:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kmalloc[m[K’
+  /[01;36m[Kmavros[m[K/setpoint_velocity/cmd_vel
+   [01;36m[K^~~~~~[m[K
+   [32m[Kmalloc[m[K
+[01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:568:10:[m[K [01;31m[Kerror: [m[K‘[01m[Ksetpoint_velocity[m[K’ was not declared in this scope
+  /mavros/[01;31m[Ksetpoint_velocity[m[K/cmd_vel
+          [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:568:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kcmd_vel[m[K’ was not declared in this scope
+  /mavros/setpoint_velocity/[01;31m[Kcmd_vel[m[K
+                            [01;31m[K^~~~~~~[m[K
+[01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:599:3:[m[K [01;31m[Kerror: [m[K‘[01m[Ktarget_pos_pub[m[K’ was not declared in this scope
+   [01;31m[Ktarget_pos_pub[m[K.publish(pose);
+   [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:599:3:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kthrust_pub[m[K’
+   [01;36m[Ktarget_pos_pub[m[K.publish(pose);
+   [01;36m[K^~~~~~~~~~~~~~[m[K
+   [32m[Kthrust_pub[m[K
+[01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:610:13:[m[K [01;35m[Kwarning: [m[Klarge integer implicitly truncated to unsigned type [[01;35m[K-Woverflow[m[K]
+  msg.data = [01;35m[K'1\n'[m[K;//舵机控制
+             [01;35m[K^~~~~[m[K
+[01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:658:7:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[KserialPort[m[K’
+       [01;31m[KserialPort[m[K.write(std::to_string((i2++)%60));
+       [01;31m[K^~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/melodic/include/ros/ros.h:40:0[m[K,
+                 from [01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:429[m[K:
+[01m[K/opt/ros/melodic/include/ros/console.h:348:176:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kprint(NULL, void*&, ros::console::Level&, const char [65], int, const char [22], time_t*)[m[K’
+     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, __VA_ARGS__[01;31m[K)[m[K
+                                                                                                                                                                                [01;31m[K^[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:351:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+     [01;36m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K(NULL, __VA_ARGS__)
+     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:387:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+       [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:572:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+ #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+                                   [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/rosconsole/macros_generated.h:162:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+ #define ROS_WARN(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Warn, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+                       [01;36m[K^~~~~~~[m[K
+[01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:680:9:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_WARN[m[K’
+         [01;36m[KR[m[KOS_WARN(&timep);
+         [01;36m[K^[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:158:22:[m[K [01;36m[Knote: [m[Kcandidate: void ros::console::print(ros::console::FilterBase*, void*, ros::console::Level, const char*, int, const char*, const char*, ...)
+ ROSCONSOLE_DECL void [01;36m[Kprint[m[K(FilterBase* filter, void* logger, Level level,
+                      [01;36m[K^~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:158:22:[m[K [01;36m[Knote: [m[K  no known conversion for argument 7 from ‘[01m[Ktime_t* {aka long int*}[m[K’ to ‘[01m[Kconst char*[m[K’
+[01m[K/opt/ros/melodic/include/ros/console.h:162:22:[m[K [01;36m[Knote: [m[Kcandidate: void ros::console::print(ros::console::FilterBase*, void*, ros::console::Level, const stringstream&, const char*, int, const char*)
+ ROSCONSOLE_DECL void [01;36m[Kprint[m[K(FilterBase* filter, void* logger, Level level,
+                      [01;36m[K^~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:162:22:[m[K [01;36m[Knote: [m[K  no known conversion for argument 4 from ‘[01m[Kconst char [65][m[K’ to ‘[01m[Kconst stringstream& {aka const std::__cxx11::basic_stringstream<char>&}[m[K’
+[01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:681:47:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 2 has type ‘[01m[Ktime_t {aka long int}[m[K’ [[01;35m[K-Wformat=[m[K]
+       printf("not move:timep111111:%d\n",timep[01;35m[K)[m[K;
+                                               [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/melodic/include/ros/ros.h:40:0[m[K,
+                 from [01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:429[m[K:
+[01m[K/opt/ros/melodic/include/ros/console.h:348:176:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kprint(NULL, void*&, ros::console::Level&, const char [65], int, const char [22], time_t*)[m[K’
+     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, __VA_ARGS__[01;31m[K)[m[K
+                                                                                                                                                                                [01;31m[K^[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:351:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+     [01;36m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K(NULL, __VA_ARGS__)
+     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:387:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+       [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:572:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+ #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+                                   [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/melodic/include/rosconsole/macros_generated.h:214:24:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+ #define ROS_ERROR(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Error, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+                        [01;36m[K^~~~~~~[m[K
+[01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:688:6:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_ERROR[m[K’
+      [01;36m[KR[m[KOS_ERROR(&timep2);
+      [01;36m[K^[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:158:22:[m[K [01;36m[Knote: [m[Kcandidate: void ros::console::print(ros::console::FilterBase*, void*, ros::console::Level, const char*, int, const char*, const char*, ...)
+ ROSCONSOLE_DECL void [01;36m[Kprint[m[K(FilterBase* filter, void* logger, Level level,
+                      [01;36m[K^~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:158:22:[m[K [01;36m[Knote: [m[K  no known conversion for argument 7 from ‘[01m[Ktime_t* {aka long int*}[m[K’ to ‘[01m[Kconst char*[m[K’
+[01m[K/opt/ros/melodic/include/ros/console.h:162:22:[m[K [01;36m[Knote: [m[Kcandidate: void ros::console::print(ros::console::FilterBase*, void*, ros::console::Level, const stringstream&, const char*, int, const char*)
+ ROSCONSOLE_DECL void [01;36m[Kprint[m[K(FilterBase* filter, void* logger, Level level,
+                      [01;36m[K^~~~~[m[K
+[01m[K/opt/ros/melodic/include/ros/console.h:162:22:[m[K [01;36m[Knote: [m[K  no known conversion for argument 4 from ‘[01m[Kconst char [65][m[K’ to ‘[01m[Kconst stringstream& {aka const std::__cxx11::basic_stringstream<char>&}[m[K’
+[01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:689:43:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 2 has type ‘[01m[Ktime_t {aka long int}[m[K’ [[01;35m[K-Wformat=[m[K]
+       printf("move:timep22222:%d\n",timep2[01;35m[K)[m[K;
+                                           [01;35m[K^[m[K
+[01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:699:7:[m[K [01;31m[Kerror: [m[K‘[01m[Ktarget_pos_pub[m[K’ was not declared in this scope
+       [01;31m[Ktarget_pos_pub[m[K.publish(pose);
+       [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:699:7:[m[K [01;36m[Knote: [m[Ksuggested alternative: ‘[01m[Kthrust_pub[m[K’
+       [01;36m[Ktarget_pos_pub[m[K.publish(pose);
+       [01;36m[K^~~~~~~~~~~~~~[m[K
+       [32m[Kthrust_pub[m[K
+[01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:708:19:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Ksqrt()[m[K’
+     distance=sqrt([01;31m[K)[m[K
+                   [01;31m[K^[m[K
+In file included from [01m[K/usr/include/features.h:424:0[m[K,
+                 from [01m[K/usr/include/aarch64-linux-gnu/c++/7/bits/os_defines.h:39[m[K,
+                 from [01m[K/usr/include/aarch64-linux-gnu/c++/7/bits/c++config.h:533[m[K,
+                 from [01m[K/usr/include/c++/7/cstdlib:41[m[K,
+                 from [01m[K/usr/include/c++/7/stdlib.h:36[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/platform.h:37[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/time.h:53[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:429[m[K:
+[01m[K/usr/include/aarch64-linux-gnu/bits/mathcalls.h:143:1:[m[K [01;36m[Knote: [m[Kcandidate: double sqrt(double)
+ [01;36m[K_[m[K_MATHCALL (sqrt,, (_Mdouble_ __x));
+ [01;36m[K^[m[K
+[01m[K/usr/include/aarch64-linux-gnu/bits/mathcalls.h:143:1:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+In file included from [01m[K/opt/ros/melodic/include/ros/time.h:55:0[m[K,
+                 from [01m[K/opt/ros/melodic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:429[m[K:
+[01m[K/usr/include/c++/7/cmath:463:3:[m[K [01;36m[Knote: [m[Kcandidate: constexpr float std::sqrt(float)
+   [01;36m[Ksqrt[m[K(float __x)
+   [01;36m[K^~~~[m[K
+[01m[K/usr/include/c++/7/cmath:463:3:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[01m[K/usr/include/c++/7/cmath:467:3:[m[K [01;36m[Knote: [m[Kcandidate: constexpr long double std::sqrt(long double)
+   [01;36m[Ksqrt[m[K(long double __x)
+   [01;36m[K^~~~[m[K
+[01m[K/usr/include/c++/7/cmath:467:3:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+[01m[K/usr/include/c++/7/cmath:475:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Tp> constexpr typename __gnu_cxx::__enable_if<std::__is_integer<_Tp>::__value, double>::__type std::sqrt(_Tp)
+     [01;36m[Ksqrt[m[K(_Tp __x)
+     [01;36m[K^~~~[m[K
+[01m[K/usr/include/c++/7/cmath:475:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:708:19:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+     distance=sqrt([01;36m[K)[m[K
+                   [01;36m[K^[m[K
+make[2]: *** [CMakeFiles/mission_bombing.dir/src/mission_bombing.cpp.o] Error 1
+make[1]: *** [CMakeFiles/mission_bombing.dir/all] Error 2
+make: *** [all] Error 2

@@ -207,3 +207,8 @@ target_link_libraries(mission_bombing
 
 ## Add folders to be run by python nosetests
 # catkin_add_nosetests(test)
+
+catkin_install_python(PROGRAMS
+  src/demo_predict_camera.py
+  DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
+)

@@ -1,0 +1,5 @@
+trans
+/home/amov/catkin_ws/devel/.private/trans/cmake.lock /home/amov/catkin_ws/devel/./cmake.lock
+/home/amov/catkin_ws/devel/.private/trans/share/trans/cmake/transConfig-version.cmake /home/amov/catkin_ws/devel/share/trans/cmake/transConfig-version.cmake
+/home/amov/catkin_ws/devel/.private/trans/share/trans/cmake/transConfig.cmake /home/amov/catkin_ws/devel/share/trans/cmake/transConfig.cmake
+/home/amov/catkin_ws/devel/.private/trans/lib/pkgconfig/trans.pc /home/amov/catkin_ws/devel/lib/pkgconfig/trans.pc

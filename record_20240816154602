@@ -1,0 +1,13 @@
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(7.03449,	13.5145,	-4.91479)
+	>>local_odom    =(7.03449,	13.5145,	-4.91479)
+	>>global_odom =(5.64946,	14.6113,	0.216)
+	>>gpsraw            	 =(-0.315581)
+	>>mav_alt            =(local:-4.91474	relative:0.216492
+	>>rel_alt                =(0.216)
+	>>local_v              =(-0.0181276,	-0.00721904,	0.0147129)
+	>>body_v             =(-0.0179847,	-0.00343248,	0.0161853)
+	>>gpsvel               =(0.0250043,	-0.0312216,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)

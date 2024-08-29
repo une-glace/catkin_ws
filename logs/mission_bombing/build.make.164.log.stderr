@@ -1,0 +1,9 @@
+[01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:610:13:[m[K [01;35m[Kwarning: [m[Kmulti-character character constant [[01;35m[K-Wmultichar[m[K]
+  msg.data = [01;35m[K'1\n'[m[K;//舵机控制
+             [01;35m[K^~~~~[m[K
+[01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:542:1:[m[K [01;31m[Kerror: [m[K‘[01m[Kairspeed[m[K’ does not name a type
+ [01;31m[Kairspeed[m[K groundspeed gps_alt baro_alt nav_orientation self_vel_body picth/roll/yaw  off:in->out
+ [01;31m[K^~~~~~~~[m[K
+make[2]: *** [CMakeFiles/mission_bombing.dir/src/mission_bombing.cpp.o] Error 1
+make[1]: *** [CMakeFiles/mission_bombing.dir/all] Error 2
+make: *** [all] Error 2

@@ -1,0 +1,6 @@
+[01m[Kc++:[m[K [01;31m[Kerror: [m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp: 没有那个文件或目录
+[01m[Kc++:[m[K [01;31m[Kfatal error: [m[Kno input files
+compilation terminated.
+make[2]: *** [CMakeFiles/mission_bombing.dir/src/mission_bombing.cpp.o] Error 1
+make[1]: *** [CMakeFiles/mission_bombing.dir/all] Error 2
+make: *** [all] Error 2

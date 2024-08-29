@@ -1,0 +1,20 @@
+[0m[ INFO] [1723794502.544443466]: not connected[0m
+[0m[ INFO] [1723794502.560906587]: not connected[0m
+[0m[ INFO] [1723794502.577592161]: not connected[0m
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos	=(3.31339,	11.7752,	-5.34135)
+	>>local_odom	=(3.31339,	11.7752,	-5.34135)
+	>>global_odom	=(1.92159,	12.8708,	0.174)
+	>>gpsraw	=(-0.341889)
+	>>mav_alt	=(local:-5.34331	relative:0.17233)
+	>>rel_alt	=(0.174)
+	>>local_v	=(-0.0708987,	-0.00646037,	0.0048336)
+	>>body_v	=(-0.0623731,	0.0321979,	0.0128304)
+	>>gpsvel	=(-0.00714106,	-0.00700037,	0)
+	>>hub_airspd	=(airspeed:0,	groundspeed:0,	alt:0)
+
+
+
+[0m[ INFO] [1723794504.284622099]: Vehicle armed[0m

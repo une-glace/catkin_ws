@@ -1102,6 +1102,16 @@ CMakeFiles/mission_bombing.dir/src/mission_bombing.cpp.o: /home/amov/catkin_ws/s
   /opt/ros/melodic/include/geometry_msgs/Pose.h \
   /opt/ros/melodic/include/geometry_msgs/Point.h \
   /opt/ros/melodic/include/geometry_msgs/Quaternion.h \
+  /opt/ros/melodic/include/geometry_msgs/TwistStamped.h \
+  /opt/ros/melodic/include/geometry_msgs/Twist.h \
+  /opt/ros/melodic/include/geometry_msgs/Vector3.h \
+  /opt/ros/melodic/include/mavros_msgs/GPSRAW.h \
+  /opt/ros/melodic/include/nav_msgs/Odometry.h \
+  /opt/ros/melodic/include/geometry_msgs/PoseWithCovariance.h \
+  /opt/ros/melodic/include/geometry_msgs/TwistWithCovariance.h \
+  /opt/ros/melodic/include/mavros_msgs/Altitude.h \
+  /opt/ros/melodic/include/mavros_msgs/VFR_HUD.h \
+  /opt/ros/melodic/include/std_msgs/Float64.h \
   /usr/include/c++/7/fstream \
   /usr/include/aarch64-linux-gnu/c++/7/bits/basic_file.h \
   /usr/include/aarch64-linux-gnu/c++/7/bits/c++io.h \
@@ -1117,6 +1127,10 @@ CMakeFiles/mission_bombing.dir/src/mission_bombing.cpp.o: /home/amov/catkin_ws/s
 /usr/include/c++/7/bits/fstream.tcc:
 
 /usr/include/aarch64-linux-gnu/c++/7/bits/c++io.h:
+
+/opt/ros/melodic/include/mavros_msgs/VFR_HUD.h:
+
+/opt/ros/melodic/include/nav_msgs/Odometry.h:
 
 /opt/ros/melodic/include/geometry_msgs/Point.h:
 
@@ -1412,6 +1426,8 @@ CMakeFiles/mission_bombing.dir/src/mission_bombing.cpp.o: /home/amov/catkin_ws/s
 
 /usr/include/boost/type_traits/is_default_constructible.hpp:
 
+/opt/ros/melodic/include/geometry_msgs/TwistWithCovariance.h:
+
 /usr/include/boost/type_traits/has_trivial_constructor.hpp:
 
 /usr/include/boost/mpl/multiplies.hpp:
@@ -1528,6 +1544,8 @@ CMakeFiles/mission_bombing.dir/src/mission_bombing.cpp.o: /home/amov/catkin_ws/s
 
 /opt/ros/melodic/include/rosconsole/macros_generated.h:
 
+/opt/ros/melodic/include/std_msgs/Float64.h:
+
 /usr/include/log4cxx/helpers/classregistration.h:
 
 /usr/include/log4cxx/helpers/class.h:
@@ -1555,6 +1573,8 @@ CMakeFiles/mission_bombing.dir/src/mission_bombing.cpp.o: /home/amov/catkin_ws/s
 /usr/include/boost/core/enable_if.hpp:
 
 /usr/include/boost/utility/enable_if.hpp:
+
+/opt/ros/melodic/include/geometry_msgs/TwistStamped.h:
 
 /usr/include/boost/type_traits/declval.hpp:
 
@@ -1775,6 +1795,8 @@ CMakeFiles/mission_bombing.dir/src/mission_bombing.cpp.o: /home/amov/catkin_ws/s
 /usr/include/boost/predef/os/haiku.h:
 
 /usr/include/boost/mpl/bool_fwd.hpp:
+
+/opt/ros/melodic/include/geometry_msgs/PoseWithCovariance.h:
 
 /usr/include/boost/preprocessor/facilities/empty.hpp:
 
@@ -2218,6 +2240,8 @@ CMakeFiles/mission_bombing.dir/src/mission_bombing.cpp.o: /home/amov/catkin_ws/s
 
 /usr/include/boost/version.hpp:
 
+/opt/ros/melodic/include/geometry_msgs/Vector3.h:
+
 /usr/include/aarch64-linux-gnu/bits/types/sigset_t.h:
 
 /usr/include/c++/7/bits/stl_iterator.h:
@@ -2335,6 +2359,8 @@ CMakeFiles/mission_bombing.dir/src/mission_bombing.cpp.o: /home/amov/catkin_ws/s
 /usr/include/boost/predef/compiler.h:
 
 /usr/include/boost/mpl/limits/vector.hpp:
+
+/opt/ros/melodic/include/geometry_msgs/Twist.h:
 
 /usr/include/aarch64-linux-gnu/bits/typesizes.h:
 
@@ -2475,6 +2501,8 @@ CMakeFiles/mission_bombing.dir/src/mission_bombing.cpp.o: /home/amov/catkin_ws/s
 /usr/lib/gcc/aarch64-linux-gnu/7/include-fixed/limits.h:
 
 /usr/include/aarch64-linux-gnu/c++/7/bits/messages_members.h:
+
+/opt/ros/melodic/include/mavros_msgs/GPSRAW.h:
 
 /usr/include/boost/numeric/conversion/bounds.hpp:
 
@@ -3257,6 +3285,8 @@ CMakeFiles/mission_bombing.dir/src/mission_bombing.cpp.o: /home/amov/catkin_ws/s
 /usr/include/boost/type_traits/is_arithmetic.hpp:
 
 /usr/include/boost/mpl/aux_/iter_fold_impl.hpp:
+
+/opt/ros/melodic/include/mavros_msgs/Altitude.h:
 
 /usr/include/boost/concept/usage.hpp:
 

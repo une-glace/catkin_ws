@@ -1,0 +1,1 @@
+/home/amov/catkin_ws/devel/.private/trans/share/trans/cmake/transConfig.cmake

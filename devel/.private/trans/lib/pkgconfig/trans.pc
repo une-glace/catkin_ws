@@ -1,0 +1,8 @@
+prefix=/home/amov/catkin_ws/devel/.private/trans
+
+Name: trans
+Description: Description of trans
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,20 @@
+[01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:661:46:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kresponse[m[K’ in ‘[01m[Kmain[m[K’, which is of non-class type ‘[01m[Kint(int, char**)[m[K’
+               if (!current_state.armed) main.[01;31m[Kresponse[m[K.success)
+                                              [01;31m[K^~~~~~~~[m[K
+[01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:668:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kelse[m[K’ without a previous ‘[01m[Kif[m[K’
+               [01;31m[Kelse[m[K if (current_state.armed&&mission_status)
+               [01;31m[K^~~~[m[K
+[01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:702:4:[m[K [01;31m[Kerror: [m[Kcase label ‘[01m[K1[m[K’ not within a switch statement
+    [01;31m[Kcase[m[K 1:
+    [01;31m[K^~~~[m[K
+[01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:770:4:[m[K [01;31m[Kerror: [m[Kcase label ‘[01m[K3[m[K’ not within a switch statement
+    [01;31m[Kcase[m[K 3:
+    [01;31m[K^~~~[m[K
+[01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:[m[K At global scope:
+[01m[K/home/amov/catkin_ws/src/mission_bombing/src/mission_bombing.cpp:784:2:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+ }[01;31m[K}[m[K
+  [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/mission_bombing.dir/src/mission_bombing.cpp.o] Error 1
+make[1]: *** [CMakeFiles/mission_bombing.dir/all] Error 2
+make: *** [all] Error 2
