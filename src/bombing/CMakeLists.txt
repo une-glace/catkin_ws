@@ -134,7 +134,7 @@ include_directories(
 ## Declare a C++ executable
 ## With catkin_make all packages are built within a single CMake context
 ## The recommended prefix ensures that target names across packages don't collide
-add_executable(bombing src/bombing.cpp)
+# add_executable(${PROJECT_NAME}_node src/summer_cadc_pkg_node.cpp)
 
 ## Rename C++ executable without prefix
 ## The above recommended prefix causes long target names, the following renames the
@@ -147,9 +147,9 @@ add_executable(bombing src/bombing.cpp)
 # add_dependencies(${PROJECT_NAME}_node ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
 
 ## Specify libraries to link a library or executable target against
- target_link_libraries(bombing
-   ${catkin_LIBRARIES}
-)
+# target_link_libraries(${PROJECT_NAME}_node
+#   ${catkin_LIBRARIES}
+# )
 
 #############
 ## Install ##
@@ -205,3 +205,26 @@ add_executable(bombing src/bombing.cpp)
 
 ## Add folders to be run by python nosetests
 # catkin_add_nosetests(test)
+
+include_directories(
+include
+  ${catkin_INCLUDE_DIRS}
+)
+
+add_executable(bombing src/bombing.cpp)
+target_link_libraries(bombing
+${catkin_LIBRARIES}
+)
+
+add_executable(test2 src/test2.cpp)
+target_link_libraries(test2
+${catkin_LIBRARIES}
+)
+ add_dependencies(test2 ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
+
+ add_executable(test3 src/test3.cpp)
+ target_link_libraries(test3
+ ${catkin_LIBRARIES}
+ )
+  add_dependencies(test3 ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
+

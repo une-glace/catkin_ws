@@ -1103,6 +1103,19 @@ CMakeFiles/mission_offboard.dir/src/mission_offboard.cpp.o
  /opt/ros/melodic/include/geometry_msgs/Pose.h
  /opt/ros/melodic/include/geometry_msgs/Point.h
  /opt/ros/melodic/include/geometry_msgs/Quaternion.h
+ /opt/ros/melodic/include/geometry_msgs/TwistStamped.h
+ /opt/ros/melodic/include/geometry_msgs/Twist.h
+ /opt/ros/melodic/include/geometry_msgs/Vector3.h
+ /opt/ros/melodic/include/mavros_msgs/GPSRAW.h
+ /opt/ros/melodic/include/nav_msgs/Odometry.h
+ /opt/ros/melodic/include/geometry_msgs/PoseWithCovariance.h
+ /opt/ros/melodic/include/geometry_msgs/TwistWithCovariance.h
+ /opt/ros/melodic/include/mavros_msgs/Altitude.h
+ /opt/ros/melodic/include/mavros_msgs/VFR_HUD.h
+ /opt/ros/melodic/include/mavros_msgs/Thrust.h
+ /opt/ros/melodic/include/std_msgs/Float64.h
+ /opt/ros/melodic/include/mavros_msgs/WaypointReached.h
+ /opt/ros/melodic/include/mavros_msgs/RCIn.h
  /usr/include/c++/7/fstream
  /usr/include/aarch64-linux-gnu/c++/7/bits/basic_file.h
  /usr/include/aarch64-linux-gnu/c++/7/bits/c++io.h

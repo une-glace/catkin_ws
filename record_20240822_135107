@@ -1,0 +1,975 @@
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(-11.5294,	0.477761,	6.43459)
+	>>local_odom    =(-11.5294,	0.477761,	6.43459)
+	>>global_odom =(-12.3451,	-1.89588,	0.239)
+	>>gpsraw            	 =(0.298414)
+	>>mav_alt            =(local:6.43488	relative:0.240222
+	>>rel_alt                =(0.239)
+	>>local_v              =(0.0478777,	0.0420638,	0.00148168)
+	>>body_v             =(-0.049321,	0.0377011,	0.0144875)
+	>>gpsvel               =(-0.000675385,	-0.0299924,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(-11.5275,	0.478851,	6.43314)
+	>>local_odom    =(-11.5275,	0.478851,	6.43314)
+	>>global_odom =(-12.3451,	-1.88479,	0.238)
+	>>gpsraw            	 =(0.29886)
+	>>mav_alt            =(local:6.43488	relative:0.240222
+	>>rel_alt                =(0.238)
+	>>local_v              =(0.038091,	0.0429982,	0.00228621)
+	>>body_v             =(-0.0481566,	0.0278824,	0.01444)
+	>>gpsvel               =(-0.000900514,	-0.0399899,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(-11.5266,	0.479096,	6.43323)
+	>>local_odom    =(-11.5266,	0.479096,	6.43323)
+	>>global_odom =(-12.3451,	-1.88479,	0.238)
+	>>gpsraw            	 =(0.29886)
+	>>mav_alt            =(local:6.43323	relative:0.238571
+	>>rel_alt                =(0.238)
+	>>local_v              =(0.0307446,	0.0404907,	0.00130425)
+	>>body_v             =(-0.0445226,	0.0213259,	0.0122217)
+	>>gpsvel               =(-0.000900514,	-0.0399899,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(-11.5257,	0.479442,	6.43318)
+	>>local_odom    =(-11.5257,	0.479442,	6.43318)
+	>>global_odom =(-12.3451,	-1.88479,	0.238)
+	>>gpsraw            	 =(0.29886)
+	>>mav_alt            =(local:6.43323	relative:0.238571
+	>>rel_alt                =(0.238)
+	>>local_v              =(0.0239851,	0.036639,	-0.000686755)
+	>>body_v             =(-0.0399251,	0.0156904,	0.00883012)
+	>>gpsvel               =(-0.000900514,	-0.0399899,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(-11.5252,	0.479719,	6.43302)
+	>>local_odom    =(-11.5252,	0.479719,	6.43302)
+	>>global_odom =(-12.3451,	-1.88479,	0.238)
+	>>gpsraw            	 =(0.29886)
+	>>mav_alt            =(local:6.43323	relative:0.238571
+	>>rel_alt                =(0.238)
+	>>local_v              =(0.0194228,	0.0340287,	-0.000657036)
+	>>body_v             =(-0.0365282,	0.0118022,	0.00787589)
+	>>gpsvel               =(-0.000900514,	-0.0399899,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(-11.5247,	0.479979,	6.43282)
+	>>local_odom    =(-11.5247,	0.479979,	6.43282)
+	>>global_odom =(-12.3451,	-1.88479,	0.238)
+	>>gpsraw            	 =(0.29886)
+	>>mav_alt            =(local:6.43292	relative:0.238256
+	>>rel_alt                =(0.238)
+	>>local_v              =(0.0168357,	0.0303701,	-0.00040967)
+	>>body_v             =(-0.0324657,	0.010058,	0.00712516)
+	>>gpsvel               =(-0.000900514,	-0.0399899,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(-11.5247,	0.479979,	6.43282)
+	>>local_odom    =(-11.5247,	0.479979,	6.43282)
+	>>global_odom =(-12.3451,	-1.88479,	0.237)
+	>>gpsraw            	 =(0.29886)
+	>>mav_alt            =(local:6.43292	relative:0.238256
+	>>rel_alt                =(0.237)
+	>>local_v              =(0.0168357,	0.0303701,	-0.00040967)
+	>>body_v             =(-0.0324657,	0.010058,	0.00712516)
+	>>gpsvel               =(-0.000900514,	-0.0399899,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(-11.5238,	0.480339,	6.43196)
+	>>local_odom    =(-11.5238,	0.480339,	6.43196)
+	>>global_odom =(-12.3451,	-1.88479,	0.237)
+	>>gpsraw            	 =(0.30644)
+	>>mav_alt            =(local:6.43292	relative:0.238256
+	>>rel_alt                =(0.237)
+	>>local_v              =(0.0165372,	0.026925,	0.00111227)
+	>>body_v             =(-0.0287943,	0.0104293,	0.00786062)
+	>>gpsvel               =(-0.000225128,	-0.00999747,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(-11.5238,	0.480339,	6.43196)
+	>>local_odom    =(-11.5238,	0.480339,	6.43196)
+	>>global_odom =(-12.3451,	-1.88479,	0.236)
+	>>gpsraw            	 =(0.30644)
+	>>mav_alt            =(local:6.43155	relative:0.236894
+	>>rel_alt                =(0.236)
+	>>local_v              =(0.0165372,	0.026925,	0.00111227)
+	>>body_v             =(-0.0287943,	0.0104293,	0.00786062)
+	>>gpsvel               =(-0.000225128,	-0.00999747,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(-11.5232,	0.479692,	6.43077)
+	>>local_odom    =(-11.5232,	0.479692,	6.43077)
+	>>global_odom =(-12.3451,	-1.88479,	0.236)
+	>>gpsraw            	 =(0.30644)
+	>>mav_alt            =(local:6.43155	relative:0.236894
+	>>rel_alt                =(0.236)
+	>>local_v              =(0.0211054,	0.0245193,	0.00508618)
+	>>body_v             =(-0.0265707,	0.0152234,	0.0116082)
+	>>gpsvel               =(-0.000225128,	-0.00999747,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(-11.5226,	0.479505,	6.43005)
+	>>local_odom    =(-11.5226,	0.479505,	6.43005)
+	>>global_odom =(-12.3451,	-1.88479,	0.235)
+	>>gpsraw            	 =(0.30644)
+	>>mav_alt            =(local:6.43155	relative:0.236894
+	>>rel_alt                =(0.235)
+	>>local_v              =(0.0253909,	0.0275348,	0.00562466)
+	>>body_v             =(-0.0301912,	0.0187531,	0.0130886)
+	>>gpsvel               =(-0.000225128,	-0.00999747,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(-11.5219,	0.479576,	6.42943)
+	>>local_odom    =(-11.5219,	0.479576,	6.42943)
+	>>global_odom =(-12.3451,	-1.88479,	0.234)
+	>>gpsraw            	 =(0.30644)
+	>>mav_alt            =(local:6.42963	relative:0.234972
+	>>rel_alt                =(0.234)
+	>>local_v              =(0.0311811,	0.0304784,	0.00434018)
+	>>body_v             =(-0.0344238,	0.023839,	0.0129128)
+	>>gpsvel               =(-0.000225128,	-0.00999747,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(-11.521,	0.479812,	6.42893)
+	>>local_odom    =(-11.521,	0.479812,	6.42893)
+	>>global_odom =(-12.3451,	-1.88479,	0.233)
+	>>gpsraw            	 =(0.304211)
+	>>mav_alt            =(local:6.42963	relative:0.234972
+	>>rel_alt                =(0.233)
+	>>local_v              =(0.0384878,	0.0328699,	0.00402377)
+	>>body_v             =(-0.0382275,	0.0304434,	0.0137765)
+	>>gpsvel               =(-0.000900514,	-0.0399899,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(-11.52,	0.479692,	6.42797)
+	>>local_odom    =(-11.52,	0.479692,	6.42797)
+	>>global_odom =(-12.3451,	-1.88479,	0.233)
+	>>gpsraw            	 =(0.304211)
+	>>mav_alt            =(local:6.42963	relative:0.234972
+	>>rel_alt                =(0.233)
+	>>local_v              =(0.0464118,	0.0362323,	0.00533055)
+	>>body_v             =(-0.042743,	0.037373,	0.0164784)
+	>>gpsvel               =(-0.000900514,	-0.0399899,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(-11.5193,	0.479369,	6.42708)
+	>>local_odom    =(-11.5193,	0.479369,	6.42708)
+	>>global_odom =(-12.3356,	-1.88479,	0.232)
+	>>gpsraw            	 =(0.304211)
+	>>mav_alt            =(local:6.42736	relative:0.232704
+	>>rel_alt                =(0.232)
+	>>local_v              =(0.0500258,	0.0399174,	0.00574038)
+	>>body_v             =(-0.0469115,	0.0400303,	0.0180503)
+	>>gpsvel               =(-0.000900514,	-0.0399899,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(-11.5185,	0.479288,	6.4263)
+	>>local_odom    =(-11.5185,	0.479288,	6.4263)
+	>>global_odom =(-12.3356,	-1.88479,	0.231)
+	>>gpsraw            	 =(0.304211)
+	>>mav_alt            =(local:6.42736	relative:0.232704
+	>>rel_alt                =(0.231)
+	>>local_v              =(0.0508712,	0.0424892,	0.00673758)
+	>>body_v             =(-0.0493357,	0.0401971,	0.0197177)
+	>>gpsvel               =(-0.000900514,	-0.0399899,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(-11.5173,	0.479471,	6.42539)
+	>>local_odom    =(-11.5173,	0.479471,	6.42539)
+	>>global_odom =(-12.3356,	-1.88479,	0.23)
+	>>gpsraw            	 =(0.304211)
+	>>mav_alt            =(local:6.42491	relative:0.230245
+	>>rel_alt                =(0.23)
+	>>local_v              =(0.0511851,	0.0444692,	0.00522449)
+	>>body_v             =(-0.0516104,	0.0401134,	0.0187616)
+	>>gpsvel               =(-0.000900514,	-0.0399899,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(-11.5164,	0.479791,	6.42467)
+	>>local_odom    =(-11.5164,	0.479791,	6.42467)
+	>>global_odom =(-12.3356,	-1.88479,	0.229)
+	>>gpsraw            	 =(0.304211)
+	>>mav_alt            =(local:6.42491	relative:0.230245
+	>>rel_alt                =(0.229)
+	>>local_v              =(0.0513152,	0.0460137,	0.00466517)
+	>>body_v             =(-0.053237,	0.0398615,	0.0186856)
+	>>gpsvel               =(-0.000900514,	-0.0399899,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(-11.5154,	0.48026,	6.42396)
+	>>local_odom    =(-11.5154,	0.48026,	6.42396)
+	>>global_odom =(-12.3356,	-1.88479,	0.229)
+	>>gpsraw            	 =(0.304211)
+	>>mav_alt            =(local:6.42491	relative:0.230245
+	>>rel_alt                =(0.229)
+	>>local_v              =(0.0506245,	0.0468545,	0.0030192)
+	>>body_v             =(-0.0542523,	0.0390585,	0.0172749)
+	>>gpsvel               =(-0.000900514,	-0.0399899,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(-11.5146,	0.480538,	6.4231)
+	>>local_odom    =(-11.5146,	0.480538,	6.4231)
+	>>global_odom =(-12.3356,	-1.88479,	0.228)
+	>>gpsraw            	 =(0.324276)
+	>>mav_alt            =(local:6.42491	relative:0.230245
+	>>rel_alt                =(0.228)
+	>>local_v              =(0.0469326,	0.0459225,	0.00195107)
+	>>body_v             =(-0.0528516,	0.0356931,	0.0157501)
+	>>gpsvel               =(-0.000225128,	-0.00999747,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(-11.5141,	0.480306,	6.42191)
+	>>local_odom    =(-11.5141,	0.480306,	6.42191)
+	>>global_odom =(-12.3356,	-1.88479,	0.226)
+	>>gpsraw            	 =(0.324276)
+	>>mav_alt            =(local:6.4222	relative:0.227536
+	>>rel_alt                =(0.227)
+	>>local_v              =(0.0436351,	0.0432713,	-0.0021355)
+	>>body_v             =(-0.0505223,	0.0332691,	0.0110296)
+	>>gpsvel               =(-0.000225128,	-0.00999747,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(-11.5137,	0.480204,	6.42105)
+	>>local_odom    =(-11.5137,	0.480204,	6.42105)
+	>>global_odom =(-12.3356,	-1.88479,	0.226)
+	>>gpsraw            	 =(0.324276)
+	>>mav_alt            =(local:6.4222	relative:0.227536
+	>>rel_alt                =(0.226)
+	>>local_v              =(0.0410023,	0.039733,	-0.00451631)
+	>>body_v             =(-0.0471167,	0.0316075,	0.00782836)
+	>>gpsvel               =(-0.000225128,	-0.00999747,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(-11.5133,	0.480128,	6.42035)
+	>>local_odom    =(-11.5133,	0.480128,	6.42035)
+	>>global_odom =(-12.3356,	-1.88479,	0.225)
+	>>gpsraw            	 =(0.324276)
+	>>mav_alt            =(local:6.4222	relative:0.227536
+	>>rel_alt                =(0.225)
+	>>local_v              =(0.040962,	0.0360703,	-0.00656469)
+	>>body_v             =(-0.0440373,	0.0324963,	0.0051724)
+	>>gpsvel               =(-0.000225128,	-0.00999747,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(-11.5127,	0.480024,	6.41935)
+	>>local_odom    =(-11.5127,	0.480024,	6.41935)
+	>>global_odom =(-12.3356,	-1.88479,	0.224)
+	>>gpsraw            	 =(0.324276)
+	>>mav_alt            =(local:6.41988	relative:0.225219
+	>>rel_alt                =(0.224)
+	>>local_v              =(0.0390992,	0.030848,	-0.00545749)
+	>>body_v             =(-0.0384412,	0.0317204,	0.00512062)
+	>>gpsvel               =(-0.000225128,	-0.00999747,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(-11.5122,	0.47996,	6.4185)
+	>>local_odom    =(-11.5122,	0.47996,	6.4185)
+	>>global_odom =(-12.3356,	-1.88479,	0.223)
+	>>gpsraw            	 =(0.324276)
+	>>mav_alt            =(local:6.41988	relative:0.225219
+	>>rel_alt                =(0.223)
+	>>local_v              =(0.0395147,	0.0285953,	-0.00529947)
+	>>body_v             =(-0.0363399,	0.0325889,	0.00495599)
+	>>gpsvel               =(-0.000225128,	-0.00999747,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(-11.5116,	0.479944,	6.41775)
+	>>local_odom    =(-11.5116,	0.479944,	6.41775)
+	>>global_odom =(-12.3356,	-1.88479,	0.222)
+	>>gpsraw            	 =(0.326951)
+	>>mav_alt            =(local:6.41988	relative:0.225219
+	>>rel_alt                =(0.222)
+	>>local_v              =(0.0406285,	0.0269997,	-0.00374335)
+	>>body_v             =(-0.0347113,	0.0338929,	0.00632974)
+	>>gpsvel               =(-0.000675385,	-0.0299924,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(-11.5108,	0.480117,	6.41677)
+	>>local_odom    =(-11.5108,	0.480117,	6.41677)
+	>>global_odom =(-12.3356,	-1.88479,	0.221)
+	>>gpsraw            	 =(0.326951)
+	>>mav_alt            =(local:6.41722	relative:0.222557
+	>>rel_alt                =(0.221)
+	>>local_v              =(0.0415159,	0.0253968,	-0.00112598)
+	>>body_v             =(-0.032819,	0.0348777,	0.00873423)
+	>>gpsvel               =(-0.000675385,	-0.0299924,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(-11.5101,	0.4803,	6.41622)
+	>>local_odom    =(-11.5101,	0.4803,	6.41622)
+	>>global_odom =(-12.326,	-1.88479,	0.221)
+	>>gpsraw            	 =(0.326951)
+	>>mav_alt            =(local:6.41722	relative:0.222557
+	>>rel_alt                =(0.221)
+	>>local_v              =(0.0416744,	0.0247047,	0.000431861)
+	>>body_v             =(-0.0318757,	0.0350368,	0.0101795)
+	>>gpsvel               =(-0.000675385,	-0.0299924,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(-11.5094,	0.480545,	6.41581)
+	>>local_odom    =(-11.5094,	0.480545,	6.41581)
+	>>global_odom =(-12.326,	-1.88479,	0.221)
+	>>gpsraw            	 =(0.326951)
+	>>mav_alt            =(local:6.41557	relative:0.22091
+	>>rel_alt                =(0.221)
+	>>local_v              =(0.0418325,	0.0250865,	0.000971919)
+	>>body_v             =(-0.0321635,	0.0350535,	0.0108166)
+	>>gpsvel               =(-0.000675385,	-0.0299924,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(-11.5086,	0.480888,	6.41545)
+	>>local_odom    =(-11.5086,	0.480888,	6.41545)
+	>>global_odom =(-12.326,	-1.88479,	0.22)
+	>>gpsraw            	 =(0.326951)
+	>>mav_alt            =(local:6.41557	relative:0.22091
+	>>rel_alt                =(0.22)
+	>>local_v              =(0.0413979,	0.0270132,	0.000681881)
+	>>body_v             =(-0.0339819,	0.0342119,	0.0108969)
+	>>gpsvel               =(-0.000675385,	-0.0299924,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(-11.5076,	0.481545,	6.41549)
+	>>local_odom    =(-11.5076,	0.481545,	6.41549)
+	>>global_odom =(-12.326,	-1.88479,	0.22)
+	>>gpsraw            	 =(0.326951)
+	>>mav_alt            =(local:6.41557	relative:0.22091
+	>>rel_alt                =(0.22)
+	>>local_v              =(0.0391853,	0.0304099,	0.00185821)
+	>>body_v             =(-0.0365216,	0.031218,	0.0124624)
+	>>gpsvel               =(-0.000675385,	-0.0299924,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(-11.5075,	0.482478,	6.41591)
+	>>local_odom    =(-11.5075,	0.482478,	6.41591)
+	>>global_odom =(-12.326,	-1.88479,	0.221)
+	>>gpsraw            	 =(0.319371)
+	>>mav_alt            =(local:6.41557	relative:0.22091
+	>>rel_alt                =(0.221)
+	>>local_v              =(0.0373333,	0.0337245,	-0.00174367)
+	>>body_v             =(-0.0400815,	0.0289776,	0.00937699)
+	>>gpsvel               =(-0.000675385,	-0.0299924,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(-11.5076,	0.483022,	6.41613)
+	>>local_odom    =(-11.5076,	0.483022,	6.41613)
+	>>global_odom =(-12.326,	-1.88479,	0.221)
+	>>gpsraw            	 =(0.319371)
+	>>mav_alt            =(local:6.41603	relative:0.221375
+	>>rel_alt                =(0.221)
+	>>local_v              =(0.0349626,	0.0343923,	-0.00631286)
+	>>body_v             =(-0.0412085,	0.0269098,	0.00477398)
+	>>gpsvel               =(-0.000675385,	-0.0299924,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(-11.5079,	0.484164,	6.41653)
+	>>local_odom    =(-11.5079,	0.484164,	6.41653)
+	>>global_odom =(-12.326,	-1.88479,	0.221)
+	>>gpsraw            	 =(0.319371)
+	>>mav_alt            =(local:6.41603	relative:0.221375
+	>>rel_alt                =(0.221)
+	>>local_v              =(0.0274385,	0.0339894,	-0.00773064)
+	>>body_v             =(-0.0396091,	0.0198304,	0.00240603)
+	>>gpsvel               =(-0.000675385,	-0.0299924,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(-11.5082,	0.485036,	6.41678)
+	>>local_odom    =(-11.5082,	0.485036,	6.41678)
+	>>global_odom =(-12.326,	-1.88479,	0.222)
+	>>gpsraw            	 =(0.319371)
+	>>mav_alt            =(local:6.41603	relative:0.221375
+	>>rel_alt                =(0.222)
+	>>local_v              =(0.023482,	0.0326767,	-0.00858726)
+	>>body_v             =(-0.0377411,	0.0163651,	0.000842013)
+	>>gpsvel               =(-0.000675385,	-0.0299924,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(-11.5085,	0.485889,	6.41698)
+	>>local_odom    =(-11.5085,	0.485889,	6.41698)
+	>>global_odom =(-12.326,	-1.88479,	0.222)
+	>>gpsraw            	 =(0.319371)
+	>>mav_alt            =(local:6.41692	relative:0.222261
+	>>rel_alt                =(0.222)
+	>>local_v              =(0.0204619,	0.030732,	-0.00927456)
+	>>body_v             =(-0.0354156,	0.0139491,	-0.000567513)
+	>>gpsvel               =(-0.000675385,	-0.0299924,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(-11.5087,	0.486692,	6.41719)
+	>>local_odom    =(-11.5087,	0.486692,	6.41719)
+	>>global_odom =(-12.326,	-1.88479,	0.222)
+	>>gpsraw            	 =(0.319371)
+	>>mav_alt            =(local:6.41692	relative:0.222261
+	>>rel_alt                =(0.222)
+	>>local_v              =(0.0193405,	0.0273437,	-0.00970046)
+	>>body_v             =(-0.0320362,	0.0136521,	-0.0017705)
+	>>gpsvel               =(-0.000675385,	-0.0299924,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(-11.5089,	0.487086,	6.41752)
+	>>local_odom    =(-11.5089,	0.487086,	6.41752)
+	>>global_odom =(-12.326,	-1.88479,	0.222)
+	>>gpsraw            	 =(0.332748)
+	>>mav_alt            =(local:6.41692	relative:0.222261
+	>>rel_alt                =(0.222)
+	>>local_v              =(0.0191901,	0.0215163,	-0.00797084)
+	>>body_v             =(-0.0260415,	0.0146663,	-0.00121949)
+	>>gpsvel               =(-0.000900514,	-0.0399899,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(-11.5089,	0.486166,	6.41754)
+	>>local_odom    =(-11.5089,	0.486166,	6.41754)
+	>>global_odom =(-12.326,	-1.88479,	0.222)
+	>>gpsraw            	 =(0.332748)
+	>>mav_alt            =(local:6.41753	relative:0.222873
+	>>rel_alt                =(0.222)
+	>>local_v              =(0.0194971,	0.0175849,	-0.00698845)
+	>>body_v             =(-0.0221099,	0.0157608,	-0.000976255)
+	>>gpsvel               =(-0.000900514,	-0.0399899,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(-11.5088,	0.485301,	6.41748)
+	>>local_odom    =(-11.5088,	0.485301,	6.41748)
+	>>global_odom =(-12.326,	-1.88479,	0.222)
+	>>gpsraw            	 =(0.332748)
+	>>mav_alt            =(local:6.41753	relative:0.222873
+	>>rel_alt                =(0.222)
+	>>local_v              =(0.019755,	0.0150297,	-0.00822772)
+	>>body_v             =(-0.0199623,	0.0166855,	-0.00263585)
+	>>gpsvel               =(-0.000900514,	-0.0399899,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(-11.5086,	0.484209,	6.4171)
+	>>local_odom    =(-11.5086,	0.484209,	6.4171)
+	>>global_odom =(-12.326,	-1.88479,	0.222)
+	>>gpsraw            	 =(0.332748)
+	>>mav_alt            =(local:6.41753	relative:0.222873
+	>>rel_alt                =(0.222)
+	>>local_v              =(0.0221094,	0.0105591,	-0.0104658)
+	>>body_v             =(-0.016602,	0.0201344,	-0.00537006)
+	>>gpsvel               =(-0.000900514,	-0.0399899,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(-11.5083,	0.483409,	6.41695)
+	>>local_odom    =(-11.5083,	0.483409,	6.41695)
+	>>global_odom =(-12.326,	-1.88479,	0.222)
+	>>gpsraw            	 =(0.332748)
+	>>mav_alt            =(local:6.41698	relative:0.222319
+	>>rel_alt                =(0.222)
+	>>local_v              =(0.022683,	0.00738831,	-0.0119177)
+	>>body_v             =(-0.0139713,	0.0215027,	-0.00731958)
+	>>gpsvel               =(-0.000900514,	-0.0399899,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(-11.508,	0.482642,	6.41683)
+	>>local_odom    =(-11.508,	0.482642,	6.41683)
+	>>global_odom =(-12.326,	-1.88479,	0.222)
+	>>gpsraw            	 =(0.332748)
+	>>mav_alt            =(local:6.41698	relative:0.222319
+	>>rel_alt                =(0.222)
+	>>local_v              =(0.0210134,	0.00584298,	-0.0130815)
+	>>body_v             =(-0.0124016,	0.0203099,	-0.00897436)
+	>>gpsvel               =(-0.000900514,	-0.0399899,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(-11.5103,	0.47972,	6.41516)
+	>>local_odom    =(-11.5103,	0.47972,	6.41516)
+	>>global_odom =(-12.326,	-1.88479,	0.22)
+	>>gpsraw            	 =(0.335423)
+	>>mav_alt            =(local:6.41698	relative:0.222319
+	>>rel_alt                =(0.22)
+	>>local_v              =(0.0154292,	0.00493866,	-0.0150373)
+	>>body_v             =(-0.0108693,	0.0152305,	-0.0117669)
+	>>gpsvel               =(-0.00292667,	-0.129967,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(-11.5125,	0.477274,	6.41368)
+	>>local_odom    =(-11.5125,	0.477274,	6.41368)
+	>>global_odom =(-12.3356,	-1.89588,	0.219)
+	>>gpsraw            	 =(0.335423)
+	>>mav_alt            =(local:6.41411	relative:0.219451
+	>>rel_alt                =(0.219)
+	>>local_v              =(0.0119761,	0.0039952,	-0.015863)
+	>>body_v             =(-0.0094603,	0.0121241,	-0.0132111)
+	>>gpsvel               =(-0.00292667,	-0.129967,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(-11.5154,	0.474345,	6.41203)
+	>>local_odom    =(-11.5154,	0.474345,	6.41203)
+	>>global_odom =(-12.3356,	-1.89588,	0.217)
+	>>gpsraw            	 =(0.335423)
+	>>mav_alt            =(local:6.41411	relative:0.219451
+	>>rel_alt                =(0.217)
+	>>local_v              =(0.00487559,	0.00350855,	-0.0161296)
+	>>body_v             =(-0.00768107,	0.0053076,	-0.0144595)
+	>>gpsvel               =(-0.00292667,	-0.129967,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(-11.5175,	0.472398,	6.411)
+	>>local_odom    =(-11.5175,	0.472398,	6.411)
+	>>global_odom =(-12.3356,	-1.89588,	0.215)
+	>>gpsraw            	 =(0.335423)
+	>>mav_alt            =(local:6.41411	relative:0.219451
+	>>rel_alt                =(0.215)
+	>>local_v              =(-0.000217666,	0.00428586,	-0.0180323)
+	>>body_v             =(-0.00785389,	0.000318365,	-0.0167867)
+	>>gpsvel               =(-0.00292667,	-0.129967,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(-11.5195,	0.470671,	6.40997)
+	>>local_odom    =(-11.5195,	0.470671,	6.40997)
+	>>global_odom =(-12.3451,	-1.89588,	0.215)
+	>>gpsraw            	 =(0.335423)
+	>>mav_alt            =(local:6.41031	relative:0.215651
+	>>rel_alt                =(0.215)
+	>>local_v              =(-0.00357528,	0.00521073,	-0.0182925)
+	>>body_v             =(-0.00815168,	-0.00315121,	-0.0172676)
+	>>gpsvel               =(-0.00292667,	-0.129967,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(-11.5214,	0.46915,	6.40911)
+	>>local_odom    =(-11.5214,	0.46915,	6.40911)
+	>>global_odom =(-12.3451,	-1.89588,	0.213)
+	>>gpsraw            	 =(0.355043)
+	>>mav_alt            =(local:6.41031	relative:0.215651
+	>>rel_alt                =(0.213)
+	>>local_v              =(-0.00322305,	0.00635637,	-0.0217532)
+	>>body_v             =(-0.0100231,	-0.00279378,	-0.0203893)
+	>>gpsvel               =(-0.000675385,	-0.0299924,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(-11.5252,	0.465495,	6.40809)
+	>>local_odom    =(-11.5252,	0.465495,	6.40809)
+	>>global_odom =(-12.3451,	-1.90696,	0.213)
+	>>gpsraw            	 =(0.355043)
+	>>mav_alt            =(local:6.40821	relative:0.213552
+	>>rel_alt                =(0.213)
+	>>local_v              =(-0.0074458,	0.0102575,	-0.0300662)
+	>>body_v             =(-0.0146601,	-0.00711327,	-0.0282687)
+	>>gpsvel               =(-0.000675385,	-0.0299924,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(-11.5268,	0.464102,	6.40787)
+	>>local_odom    =(-11.5268,	0.464102,	6.40787)
+	>>global_odom =(-12.3451,	-1.90696,	0.213)
+	>>gpsraw            	 =(0.355043)
+	>>mav_alt            =(local:6.40821	relative:0.213552
+	>>rel_alt                =(0.213)
+	>>local_v              =(-0.0122833,	0.0090132,	-0.0298911)
+	>>body_v             =(-0.0124995,	-0.0116203,	-0.0288847)
+	>>gpsvel               =(-0.000675385,	-0.0299924,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(-11.5289,	0.462413,	6.40773)
+	>>local_odom    =(-11.5289,	0.462413,	6.40773)
+	>>global_odom =(-12.3451,	-1.90696,	0.213)
+	>>gpsraw            	 =(0.355043)
+	>>mav_alt            =(local:6.40821	relative:0.213552
+	>>rel_alt                =(0.213)
+	>>local_v              =(-0.0195564,	0.00640127,	-0.0280727)
+	>>body_v             =(-0.00824643,	-0.0183506,	-0.0284035)
+	>>gpsvel               =(-0.000675385,	-0.0299924,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(-11.5305,	0.461256,	6.40768)
+	>>local_odom    =(-11.5305,	0.461256,	6.40768)
+	>>global_odom =(-12.3547,	-1.90696,	0.213)
+	>>gpsraw            	 =(0.355043)
+	>>mav_alt            =(local:6.40771	relative:0.213051
+	>>rel_alt                =(0.213)
+	>>local_v              =(-0.0231925,	0.00485604,	-0.0288414)
+	>>body_v             =(-0.00620641,	-0.0216052,	-0.0297992)
+	>>gpsvel               =(-0.000675385,	-0.0299924,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(-11.5321,	0.460188,	6.40769)
+	>>local_odom    =(-11.5321,	0.460188,	6.40769)
+	>>global_odom =(-12.3547,	-1.90696,	0.213)
+	>>gpsraw            	 =(0.355043)
+	>>mav_alt            =(local:6.40771	relative:0.213051
+	>>rel_alt                =(0.213)
+	>>local_v              =(-0.0245444,	0.00293306,	-0.0307549)
+	>>body_v             =(-0.00446382,	-0.0225129,	-0.0320958)
+	>>gpsvel               =(-0.000675385,	-0.0299924,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(-11.5341,	0.458852,	6.40775)
+	>>local_odom    =(-11.5341,	0.458852,	6.40775)
+	>>global_odom =(-12.3547,	-1.90696,	0.213)
+	>>gpsraw            	 =(0.373324)
+	>>mav_alt            =(local:6.40771	relative:0.213051
+	>>rel_alt                =(0.213)
+	>>local_v              =(-0.0252039,	0.00177375,	-0.0328869)
+	>>body_v             =(-0.00363653,	-0.0228991,	-0.0343852)
+	>>gpsvel               =(-0.000675385,	-0.0299924,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(-11.5355,	0.457929,	6.40823)
+	>>local_odom    =(-11.5355,	0.457929,	6.40823)
+	>>global_odom =(-12.3547,	-1.90696,	0.213)
+	>>gpsraw            	 =(0.373324)
+	>>mav_alt            =(local:6.40809	relative:0.21343
+	>>rel_alt                =(0.213)
+	>>local_v              =(-0.0280319,	0.00393344,	-0.0337781)
+	>>body_v             =(-0.00535537,	-0.0262436,	-0.0349973)
+	>>gpsvel               =(-0.000675385,	-0.0299924,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(-11.5368,	0.457202,	6.40847)
+	>>local_odom    =(-11.5368,	0.457202,	6.40847)
+	>>global_odom =(-12.3547,	-1.90696,	0.213)
+	>>gpsraw            	 =(0.373324)
+	>>mav_alt            =(local:6.40809	relative:0.21343
+	>>rel_alt                =(0.213)
+	>>local_v              =(-0.0285552,	0.00768602,	-0.0375598)
+	>>body_v             =(-0.00962005,	-0.0275421,	-0.0378695)
+	>>gpsvel               =(-0.000675385,	-0.0299924,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(-11.5382,	0.456726,	6.40845)
+	>>local_odom    =(-11.5382,	0.456726,	6.40845)
+	>>global_odom =(-12.3547,	-1.90696,	0.213)
+	>>gpsraw            	 =(0.373324)
+	>>mav_alt            =(local:6.40809	relative:0.21343
+	>>rel_alt                =(0.213)
+	>>local_v              =(-0.029425,	0.0133487,	-0.0402824)
+	>>body_v             =(-0.0154624,	-0.0295044,	-0.0394601)
+	>>gpsvel               =(-0.000675385,	-0.0299924,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(-11.5398,	0.456483,	6.40823)
+	>>local_odom    =(-11.5398,	0.456483,	6.40823)
+	>>global_odom =(-12.3642,	-1.90696,	0.213)
+	>>gpsraw            	 =(0.373324)
+	>>mav_alt            =(local:6.40831	relative:0.213647
+	>>rel_alt                =(0.213)
+	>>local_v              =(-0.0259861,	0.0201993,	-0.0446597)
+	>>body_v             =(-0.0235623,	-0.0273489,	-0.0421263)
+	>>gpsvel               =(-0.000675385,	-0.0299924,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(-11.5409,	0.456568,	6.40797)
+	>>local_odom    =(-11.5409,	0.456568,	6.40797)
+	>>global_odom =(-12.3642,	-1.90696,	0.213)
+	>>gpsraw            	 =(0.373324)
+	>>mav_alt            =(local:6.40831	relative:0.213647
+	>>rel_alt                =(0.213)
+	>>local_v              =(-0.0243704,	0.024153,	-0.0474869)
+	>>body_v             =(-0.0282314,	-0.0262984,	-0.0440871)
+	>>gpsvel               =(-0.000675385,	-0.0299924,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(-11.5418,	0.456942,	6.40763)
+	>>local_odom    =(-11.5418,	0.456942,	6.40763)
+	>>global_odom =(-12.3642,	-1.90696,	0.212)
+	>>gpsraw            	 =(0.370649)
+	>>mav_alt            =(local:6.40831	relative:0.213647
+	>>rel_alt                =(0.212)
+	>>local_v              =(-0.0206519,	0.0259379,	-0.0502311)
+	>>body_v             =(-0.0311561,	-0.0227424,	-0.0462009)
+	>>gpsvel               =(-0.000900514,	-0.0399899,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(-11.5427,	0.457897,	6.40655)
+	>>local_odom    =(-11.5427,	0.457897,	6.40655)
+	>>global_odom =(-12.3642,	-1.90696,	0.211)
+	>>gpsraw            	 =(0.370649)
+	>>mav_alt            =(local:6.40682	relative:0.212155
+	>>rel_alt                =(0.211)
+	>>local_v              =(-0.0152422,	0.0268117,	-0.0565007)
+	>>body_v             =(-0.0341631,	-0.0169252,	-0.0518647)
+	>>gpsvel               =(-0.000900514,	-0.0399899,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(-11.5432,	0.458683,	6.40563)
+	>>local_odom    =(-11.5432,	0.458683,	6.40563)
+	>>global_odom =(-12.3642,	-1.90696,	0.21)
+	>>gpsraw            	 =(0.370649)
+	>>mav_alt            =(local:6.40682	relative:0.212155
+	>>rel_alt                =(0.21)
+	>>local_v              =(-0.00692497,	0.0281068,	-0.0591977)
+	>>body_v             =(-0.0373796,	-0.00864683,	-0.0535752)
+	>>gpsvel               =(-0.000900514,	-0.0399899,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(-11.5433,	0.459543,	6.40462)
+	>>local_odom    =(-11.5433,	0.459543,	6.40462)
+	>>global_odom =(-12.3642,	-1.90696,	0.208)
+	>>gpsraw            	 =(0.370649)
+	>>mav_alt            =(local:6.40351	relative:0.208847
+	>>rel_alt                =(0.208)
+	>>local_v              =(0.00563718,	0.0295518,	-0.0645668)
+	>>body_v             =(-0.0418877,	0.00420749,	-0.0574602)
+	>>gpsvel               =(-0.000900514,	-0.0399899,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(-11.5428,	0.460796,	6.40318)
+	>>local_odom    =(-11.5428,	0.460796,	6.40318)
+	>>global_odom =(-12.3642,	-1.90696,	0.208)
+	>>gpsraw            	 =(0.370649)
+	>>mav_alt            =(local:6.40351	relative:0.208847
+	>>rel_alt                =(0.208)
+	>>local_v              =(0.0216794,	0.031198,	-0.0701501)
+	>>body_v             =(-0.047167,	0.0202683,	-0.061064)
+	>>gpsvel               =(-0.000900514,	-0.0399899,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(-11.542,	0.461764,	6.40206)
+	>>local_odom    =(-11.542,	0.461764,	6.40206)
+	>>global_odom =(-12.3642,	-1.90696,	0.206)
+	>>gpsraw            	 =(0.361285)
+	>>mav_alt            =(local:6.40351	relative:0.208847
+	>>rel_alt                =(0.206)
+	>>local_v              =(0.0314892,	0.0300465,	-0.0718596)
+	>>body_v             =(-0.0479874,	0.0302837,	-0.0619537)
+	>>gpsvel               =(-0.00112564,	-0.0499873,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(-11.5402,	0.464108,	6.39834)
+	>>local_odom    =(-11.5402,	0.464108,	6.39834)
+	>>global_odom =(-12.3642,	-1.90696,	0.203)
+	>>gpsraw            	 =(0.361285)
+	>>mav_alt            =(local:6.39903	relative:0.20437
+	>>rel_alt                =(0.203)
+	>>local_v              =(0.021347,	0.023564,	-0.0627442)
+	>>body_v             =(-0.0378403,	0.0208195,	-0.0555199)
+	>>gpsvel               =(-0.00112564,	-0.0499873,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(-11.5394,	0.465567,	6.39611)
+	>>local_odom    =(-11.5394,	0.465567,	6.39611)
+	>>global_odom =(-12.3642,	-1.90696,	0.201)
+	>>gpsraw            	 =(0.361285)
+	>>mav_alt            =(local:6.39903	relative:0.20437
+	>>rel_alt                =(0.201)
+	>>local_v              =(0.00969838,	0.0183321,	-0.0530047)
+	>>body_v             =(-0.0288084,	0.00960477,	-0.0481398)
+	>>gpsvel               =(-0.00112564,	-0.0499873,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(-11.5392,	0.466521,	6.39485)
+	>>local_odom    =(-11.5392,	0.466521,	6.39485)
+	>>global_odom =(-12.3642,	-1.90696,	0.2)
+	>>gpsraw            	 =(0.361285)
+	>>mav_alt            =(local:6.39903	relative:0.20437
+	>>rel_alt                =(0.2)
+	>>local_v              =(0.00114845,	0.0156116,	-0.045353)
+	>>body_v             =(-0.0232555,	0.00118042,	-0.0419491)
+	>>gpsvel               =(-0.00112564,	-0.0499873,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(-11.5391,	0.467392,	6.39394)
+	>>local_odom    =(-11.5391,	0.467392,	6.39394)
+	>>global_odom =(-12.3642,	-1.89588,	0.199)
+	>>gpsraw            	 =(0.361285)
+	>>mav_alt            =(local:6.39423	relative:0.199573
+	>>rel_alt                =(0.199)
+	>>local_v              =(-0.00145844,	0.0135498,	-0.0398015)
+	>>body_v             =(-0.0196858,	-0.00142014,	-0.0371529)
+	>>gpsvel               =(-0.00112564,	-0.0499873,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(-11.5391,	0.468416,	6.3929)
+	>>local_odom    =(-11.5391,	0.468416,	6.3929)
+	>>global_odom =(-12.3642,	-1.89588,	0.198)
+	>>gpsraw            	 =(0.361285)
+	>>mav_alt            =(local:6.39423	relative:0.199573
+	>>rel_alt                =(0.198)
+	>>local_v              =(-0.000221561,	0.00972119,	-0.0388161)
+	>>body_v             =(-0.0158887,	0.000372487,	-0.036724)
+	>>gpsvel               =(-0.00112564,	-0.0499873,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(-11.5387,	0.468958,	6.39174)
+	>>local_odom    =(-11.5387,	0.468958,	6.39174)
+	>>global_odom =(-12.3547,	-1.89588,	0.196)
+	>>gpsraw            	 =(0.35638)
+	>>mav_alt            =(local:6.39423	relative:0.199573
+	>>rel_alt                =(0.196)
+	>>local_v              =(2.4006e-05,	0.00803887,	-0.0368471)
+	>>body_v             =(-0.0139061,	0.00076996,	-0.0350479)
+	>>gpsvel               =(-0.000675385,	-0.0299924,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(-11.5377,	0.469278,	6.38982)
+	>>local_odom    =(-11.5377,	0.469278,	6.38982)
+	>>global_odom =(-12.3547,	-1.89588,	0.195)
+	>>gpsraw            	 =(0.35638)
+	>>mav_alt            =(local:6.39046	relative:0.195799
+	>>rel_alt                =(0.195)
+	>>local_v              =(0.00102586,	0.00847602,	-0.0382183)
+	>>body_v             =(-0.0146537,	0.00172955,	-0.0362741)
+	>>gpsvel               =(-0.000675385,	-0.0299924,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(-11.5364,	0.469704,	6.38745)
+	>>local_odom    =(-11.5364,	0.469704,	6.38745)
+	>>global_odom =(-12.3547,	-1.89588,	0.192)
+	>>gpsraw            	 =(0.35638)
+	>>mav_alt            =(local:6.39046	relative:0.195799
+	>>rel_alt                =(0.192)
+	>>local_v              =(0.00439598,	0.00690342,	-0.0427684)
+	>>body_v             =(-0.0143786,	0.00556443,	-0.0407236)
+	>>gpsvel               =(-0.000675385,	-0.0299924,	0)
+	>>hub_airspd    =(airspeed:0,	groundspeed:0,	alt:0)
+{{{in while}}}
+	>>distance=100
+	>>mission_status1
+	>>local pos        	=(-11.5354,	0.469994,	6.38571)
+	>>local_odom    =(-11.5354,	0.469994,	6.38571)
+	>>global_odom =(-12.3547,	-1.89588,	0.19)
+	>>gpsraw            	 =(0.35638)
+	>>mav_alt            =(local:6.39046	relative:0.195799
+	>>rel_alt                =(0.19)
+	>>local_v              =(0.0076776,	0.0059035,	-0.0492968)
+	>>body_v             =(-0.0149953,	0.00932904,	-0.0470328)
+	>>gpsvel               =(-0.000675385,	-0.0299924,	0)
+	>>hub_airspd    =(airspeed:

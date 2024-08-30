@@ -11,4 +11,5 @@ export CMAKE_PREFIX_PATH="/home/amov/catkin_ws/devel/.private/mission_bombing:$C
 export LD_LIBRARY_PATH="/home/amov/catkin_ws/devel/.private/mission_bombing/lib:$LD_LIBRARY_PATH"
 export PKG_CONFIG_PATH="/home/amov/catkin_ws/devel/.private/mission_bombing/lib/pkgconfig:$PKG_CONFIG_PATH"
 export PWD='/home/amov/catkin_ws/build/mission_bombing'
+export ROSLISP_PACKAGE_DIRECTORIES="/home/amov/catkin_ws/devel/.private/mission_bombing/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
 export ROS_PACKAGE_PATH="/home/amov/catkin_ws/src/mission_bombing:$ROS_PACKAGE_PATH"

@@ -19,6 +19,8 @@
 /home/amov/catkin_ws/build/bombing/CMakeFiles/std_msgs_generate_messages_nodejs.dir
 /home/amov/catkin_ws/build/bombing/CMakeFiles/std_msgs_generate_messages_py.dir
 /home/amov/catkin_ws/build/bombing/CMakeFiles/bombing.dir
+/home/amov/catkin_ws/build/bombing/CMakeFiles/test2.dir
+/home/amov/catkin_ws/build/bombing/CMakeFiles/test3.dir
 /home/amov/catkin_ws/build/bombing/CMakeFiles/test.dir
 /home/amov/catkin_ws/build/bombing/CMakeFiles/edit_cache.dir
 /home/amov/catkin_ws/build/bombing/CMakeFiles/rebuild_cache.dir

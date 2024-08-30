@@ -445,6 +445,32 @@ mission_bombing/fast:
 .PHONY : mission_bombing/fast
 
 #=============================================================================
+# Target rules for targets named test2
+
+# Build rule for target.
+test2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test2
+.PHONY : test2
+
+# fast build rule for target.
+test2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test2.dir/build.make CMakeFiles/test2.dir/build
+.PHONY : test2/fast
+
+#=============================================================================
+# Target rules for targets named test3
+
+# Build rule for target.
+test3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test3
+.PHONY : test3
+
+# fast build rule for target.
+test3/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test3.dir/build.make CMakeFiles/test3.dir/build
+.PHONY : test3/fast
+
+#=============================================================================
 # Target rules for targets named gmock
 
 # Build rule for target.
@@ -520,6 +546,54 @@ src/mission_bombing.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mission_bombing.dir/build.make CMakeFiles/mission_bombing.dir/src/mission_bombing.cpp.s
 .PHONY : src/mission_bombing.cpp.s
 
+src/test2.o: src/test2.cpp.o
+.PHONY : src/test2.o
+
+# target to build an object file
+src/test2.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test2.dir/build.make CMakeFiles/test2.dir/src/test2.cpp.o
+.PHONY : src/test2.cpp.o
+
+src/test2.i: src/test2.cpp.i
+.PHONY : src/test2.i
+
+# target to preprocess a source file
+src/test2.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test2.dir/build.make CMakeFiles/test2.dir/src/test2.cpp.i
+.PHONY : src/test2.cpp.i
+
+src/test2.s: src/test2.cpp.s
+.PHONY : src/test2.s
+
+# target to generate assembly for a file
+src/test2.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test2.dir/build.make CMakeFiles/test2.dir/src/test2.cpp.s
+.PHONY : src/test2.cpp.s
+
+src/test3.o: src/test3.cpp.o
+.PHONY : src/test3.o
+
+# target to build an object file
+src/test3.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test3.dir/build.make CMakeFiles/test3.dir/src/test3.cpp.o
+.PHONY : src/test3.cpp.o
+
+src/test3.i: src/test3.cpp.i
+.PHONY : src/test3.i
+
+# target to preprocess a source file
+src/test3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test3.dir/build.make CMakeFiles/test3.dir/src/test3.cpp.i
+.PHONY : src/test3.cpp.i
+
+src/test3.s: src/test3.cpp.s
+.PHONY : src/test3.s
+
+# target to generate assembly for a file
+src/test3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test3.dir/build.make CMakeFiles/test3.dir/src/test3.cpp.s
+.PHONY : src/test3.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -558,9 +632,17 @@ help:
 	@echo "... gtest"
 	@echo "... gtest_main"
 	@echo "... mission_bombing"
+	@echo "... test2"
+	@echo "... test3"
 	@echo "... src/mission_bombing.o"
 	@echo "... src/mission_bombing.i"
 	@echo "... src/mission_bombing.s"
+	@echo "... src/test2.o"
+	@echo "... src/test2.i"
+	@echo "... src/test2.s"
+	@echo "... src/test3.o"
+	@echo "... src/test3.i"
+	@echo "... src/test3.s"
 .PHONY : help
 
 

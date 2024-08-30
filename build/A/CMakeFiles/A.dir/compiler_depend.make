@@ -1102,6 +1102,9 @@ CMakeFiles/A.dir/src/A.cpp.o: /home/amov/catkin_ws/src/A/src/A.cpp \
   /opt/ros/melodic/include/geometry_msgs/Pose.h \
   /opt/ros/melodic/include/geometry_msgs/Point.h \
   /opt/ros/melodic/include/geometry_msgs/Quaternion.h \
+  /opt/ros/melodic/include/geometry_msgs/TwistStamped.h \
+  /opt/ros/melodic/include/geometry_msgs/Twist.h \
+  /opt/ros/melodic/include/geometry_msgs/Vector3.h \
   /usr/include/c++/7/fstream \
   /usr/include/aarch64-linux-gnu/c++/7/bits/basic_file.h \
   /usr/include/aarch64-linux-gnu/c++/7/bits/c++io.h \
@@ -1557,6 +1560,8 @@ CMakeFiles/A.dir/src/A.cpp.o: /home/amov/catkin_ws/src/A/src/A.cpp \
 /usr/include/boost/core/enable_if.hpp:
 
 /usr/include/boost/utility/enable_if.hpp:
+
+/opt/ros/melodic/include/geometry_msgs/TwistStamped.h:
 
 /usr/include/boost/type_traits/declval.hpp:
 
@@ -2222,6 +2227,8 @@ CMakeFiles/A.dir/src/A.cpp.o: /home/amov/catkin_ws/src/A/src/A.cpp \
 
 /home/amov/catkin_ws/src/A/src/A.cpp:
 
+/opt/ros/melodic/include/geometry_msgs/Vector3.h:
+
 /usr/include/aarch64-linux-gnu/bits/types/sigset_t.h:
 
 /usr/include/c++/7/bits/stl_iterator.h:
@@ -2329,6 +2336,8 @@ CMakeFiles/A.dir/src/A.cpp.o: /home/amov/catkin_ws/src/A/src/A.cpp \
 /usr/include/boost/predef/compiler.h:
 
 /usr/include/boost/mpl/limits/vector.hpp:
+
+/opt/ros/melodic/include/geometry_msgs/Twist.h:
 
 /usr/include/aarch64-linux-gnu/bits/typesizes.h:
 

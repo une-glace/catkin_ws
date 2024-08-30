@@ -148,6 +148,14 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/mission_bombing" TYPE FILE FILES "/home/amov/catkin_ws/src/mission_bombing/package.xml")
 endif()
 
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/mission_bombing" TYPE PROGRAM FILES "/home/amov/catkin_ws/build/mission_bombing/catkin_generated/installspace/demo_predict_camera.py")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/mission_bombing" TYPE PROGRAM FILES "/home/amov/catkin_ws/build/mission_bombing/catkin_generated/installspace/reco.py")
+endif()
+
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/amov/catkin_ws/build/mission_bombing/gtest/cmake_install.cmake")

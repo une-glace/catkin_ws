@@ -14,7 +14,8 @@
 #include <string>
 #include <vector>
 #include <serial/serial.h>
-
+#include <time.h>
+#include <string>
 enum mode
 {
 	mission = 0,
@@ -61,9 +62,9 @@ int main(int argc, char** argv) {
 	rate.sleep();
 	
 	geometry_msgs::PoseStamped pose;
-	pose.pose.position.x =41.000;
-	pose.pose.position.y =-120.000;
-	pose.pose.position.z = 30;
+	pose.pose.position.x =-50.000;
+	pose.pose.position.y =50;
+	pose.pose.position.z = 40;
     while (ros::ok() && !current_state.connected)
 	{
 		ROS_INFO("not connected");
@@ -76,7 +77,6 @@ int main(int argc, char** argv) {
 		ros::spinOnce();
 		rate.sleep();
 	}
-
 	mavros_msgs::SetMode offb_set_mode;
 	offb_set_mode.request.custom_mode = "AUTO.MISSION";
 	mavros_msgs::CommandBool arm_cmd;
@@ -84,21 +84,31 @@ int main(int argc, char** argv) {
 	ros::Time last_request = ros::Time::now();
 
     std_msgs::String msg;
-	msg.data = '1';//舵机控制
+	// msg.data = '1\n';//舵机控制
 
     int ok=0;
 	float distance=100;
 	bool mission_status=1;
 
-
+	time_t timep;
+	 time_t timep2;
+time_t timep3;
+int i2=0;
     while (ros::ok()) {
+
+
         if (current_state.mode == "STABILIZED") 
         {
 			ROS_INFO("switch to STABILIZED");
+			
 			std::exit(0);
 		}
         switch (mission_mode) {
         case 0: 
+	// serialPort.write("59\n")
+						// serialPort.write(std::to_string((i2++)%60));
+						// serialPort.write("0");
+					// ROS_ERROR(("SERVO SPINING 0!!!!"));
               if (!current_state.armed) 
               {
                   pose.header.stamp = ros::Time::now();
@@ -107,6 +117,7 @@ int main(int argc, char** argv) {
                       ROS_INFO("Vehicle armed");
                    }
                   last_request = ros::Time::now();
+					time(&timep);
               }
               else if (current_state.armed&&mission_status) 
               {
@@ -117,11 +128,19 @@ int main(int argc, char** argv) {
                       if (set_mode_client.call(offb_set_mode) && offb_set_mode.response.mode_sent) 
                       {
                           ROS_INFO("Mission enabled");
+						//   ROS_WARN(&timep);
+						//printf("not move:timep111111:%d\n",timep);
                           
                       }
                   }
               }
-               if((local_v.twist.linear.x)*(local_v.twist.linear.x)+(local_v.twist.linear.y)*(local_v.twist.linear.y)+(local_v.twist.linear.z)*(local_v.twist.linear.z)>3)
+		
+			  time(&timep2);
+			//   ROS_ERROR(&timep2);
+						//printf("move:timep22222:%d\n",timep2);
+
+            //    if(timep2-timep>30)
+			if (local_pos.pose.position.z>44)
               {	offb_set_mode.request.custom_mode = "OFFBOARD";mission_status=0;
 
 				if(set_mode_client.call(offb_set_mode)&&offb_set_mode.response.mode_sent){
@@ -133,28 +152,40 @@ int main(int argc, char** argv) {
               }
 			break;
 			case 1:
+
 				distance =sqrt((local_pos.pose.position.x-pose.pose.position.x)*(local_pos.pose.position.x-pose.pose.position.x)+(local_pos.pose.position.y-pose.pose.position.y)*(local_pos.pose.position.y-pose.pose.position.y) );
+// distance=sqrt()
+			    // if(distance>15){
+					time(&timep3);
+					// ROS_ERROR(&timep2);
+					// ROS_FATAL(&timep3);
+						//printf("not move :timep222222:%d\n",timep2);
+						//printf("move:timep333333:%d\n",timep3);
 
-			    if(distance>20){
-				target_pos_pub.publish(pose);
-				ROS_INFO("offboard enabled111");}
-				else 
-						{offb_set_mode.request.custom_mode = "AUTO.MISSION";
-
-				   if (set_mode_client.call(offb_set_mode) && offb_set_mode.response.mode_sent) 
-                      {
-                          ROS_INFO("Mission enabled222");
-                         mode mission_mode = bombing;}}
+						if (distance>15){
+							target_pos_pub.publish(pose);
+							ROS_INFO("offboard enabled111");}
+						else 
+						{
+								ROS_WARN("IN >30");
+								offb_set_mode.request.custom_mode = "AUTO.MISSION";
+								if (set_mode_client.call(offb_set_mode) && offb_set_mode.response.mode_sent) 
+								{
+									ROS_WARN("IN >30 AND MODEL MISSION SENT");
+									ROS_INFO("Mission enabled222");
+									mission_mode = bombing;
+								}						 
+						}
+				// }
+						ROS_WARN("OUT OF >30 ,IN CASE1");
 				break;
 			case 3:
 				distance =sqrt((local_pos.pose.position.x-pose.pose.position.x)*(local_pos.pose.position.x-pose.pose.position.x)+(local_pos.pose.position.y-pose.pose.position.y)*(local_pos.pose.position.y-pose.pose.position.y) );
-				
 				ROS_INFO_STREAM_THROTTLE(1, "\033[1;32m \033[0m" << distance);
-				
-				
 				// if(distance<20){
-				// 	// serialPort.write(msg.data);
-				// 	std::exit(0);
+					// serialPort.write("170");
+					// ROS_ERROR("SERVO SPINING !180!!!!");
+					std::exit(0);
 				// }
 			break;
 }

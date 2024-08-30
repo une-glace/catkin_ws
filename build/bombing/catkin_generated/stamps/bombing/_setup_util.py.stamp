@@ -268,7 +268,7 @@ if __name__ == '__main__':
 
         if not args.local:
             # environment at generation time
-            CMAKE_PREFIX_PATH = '/home/amov/catkin_ws/devel;/home/amov/VINS_FUSION/devel;/home/amov/amovlab_ws/devel;/home/amov/rplidar_ws/devel;/home/amov/Prometheus/devel;/home/amov/realsense_ws/devel;/opt/ros/melodic'.split(';')
+            CMAKE_PREFIX_PATH = r'/home/amov/catkin_ws/devel;/home/amov/VINS_FUSION/devel;/home/amov/amovlab_ws/devel;/home/amov/rplidar_ws/devel;/home/amov/Prometheus/devel;/home/amov/realsense_ws/devel;/opt/ros/melodic'.split(';')
         else:
             # don't consider any other prefix path than this one
             CMAKE_PREFIX_PATH = []
