@@ -124,7 +124,8 @@ int main(int argc, char** argv) {
 	 serialPort.write("70a");
     
 	float x = 0, y = 0;
-    std::cout << "pose.x: ";
+    
+	std::cout << "pose.x: ";
     std::cin >> x;
     std::cout << "pose.y: ";
     std::cin >> y;
@@ -153,19 +154,6 @@ int main(int argc, char** argv) {
             std::cout << "Unable to open file";
         }
     }
-
-/*
-	//来自视觉的代码已经把x和y存进名为coordinates.txt的文件夹里
-	std::ifstream inFile("coordinates.txt");
-	if (inFile.is_open()) {
-        inFile >> x >> y;
-        inFile.close();
-        std::cout << "Read from file: x = " << x << ", y = " << y << std::endl;
-    } 
-	else {
-        std::cout << "Unable to open file";
-    }
-*/
 
 
 //测试舵机臂偏转角度
@@ -257,7 +245,32 @@ int main(int argc, char** argv) {
 	time_t timep2;
 	time_t timep3;
 
+
+	//检查文件是否是空的
+	bool isFileEmpty(const std::string& filename) {
+    std::ifstream file(filename, std::ios::binary | std::ios::ate);
+    return file.tellg() == 0;
+	}
+
 	while (ros::ok()) {
+		/*
+		std::string filename =  "coordinates.txt";
+		if (isFileEmpty(filename)){
+			pose.pose.position.x = -40;
+			pose.pose.position.y = -6;
+		}
+		else{
+			std::ifstream inFile("coordinates.txt");
+			if (inFile.is_open()) {
+        	inFile >> pose.pose.position.x >> pose.pose.position.y;
+        	inFile.close();
+        	std::cout << "Read from file: x = " << pose.pose.position.x << ", y = " << pose.pose.position.y << std::endl;
+    		} 
+			else {
+        		std::cout << "Unable to open file";
+    		}
+		}*/
+
 		delt_pose.pose.position.x = local_pos.pose.position.x - global_pos_odom.pose.pose.position.x;
 		delt_pose.pose.position.y = local_pos.pose.position.y - global_pos_odom.pose.pose.position.y;
 		delt_pose.pose.position.z = local_pos.pose.position.z - global_pos_odom.pose.pose.position.z;
@@ -330,85 +343,75 @@ int main(int argc, char** argv) {
 					mission_mode = offboard;
 					ROS_INFO("offboard enabled");
 				}
-				offb_set_mode.request.custom_mode = "OFFBOARD";mission_status=0;
+				offb_set_mode.request.custom_mode = "OFFBOARD";
+				mission_status=0;
 				if(set_mode_client.call(offb_set_mode)&&offb_set_mode.response.mode_sent){
         			target_pos_pub.publish(target);
 				}
 			}
 			break;
 			
-			case 1:
-				distance =sqrt((local_pos.pose.position.x-target.pose.position.x)*(local_pos.pose.position.x-target.pose.position.x)+(local_pos.pose.position.y-target.pose.position.y)*(local_pos.pose.position.y-target.pose.position.y) );
+		case 1:
+				distance = sqrt((local_pos.pose.position.x-target.pose.position.x)*(local_pos.pose.position.x-target.pose.position.x)+(local_pos.pose.position.y-target.pose.position.y)*(local_pos.pose.position.y-target.pose.position.y) );
 				time(&timep3);
-				if (distance>37){
-					data<<"now distance >30\n";
+				
+				if (distance > 37){
+					data<<"now distance >37\n";
 					target_pos_pub.publish(target);
 					ROS_INFO("offboard enabled111");
 					ROS_INFO_STREAM_THROTTLE(1, "\033[1;32m \033[0m" <<"{{{out of 30}}}"
-	<<"\n\t>>distance="<<distance
-	<<"\n\t>>mission_status"<<mission_status
-	<<"\n\t>>local pos        	=("<<local_pos.pose.position.x<<",\t"<<local_pos.pose.position.y<<",\t"<<local_pos.pose.position.z<<")"
-	<<"\n\t>>local_odom    =("<<local_pos_odom.pose.pose.position.x<<",\t"<<local_pos_odom.pose.pose.position.y<<",\t"<<local_pos_odom.pose.pose.position.z<<")"
-	<<"\n\t>>global_odom =("<<global_pos_odom.pose.pose.position.x<<",\t"<<global_pos_odom.pose.pose.position.y<<",\t"<<global_pos_odom.pose.pose.position.z<<")"
-	<<"\n\t>>gpsraw            	 =("<<gpsraw.alt*0.0004458936-4<<")"
-	<<"\n\t>>mav_alt            =(local:"<<mav_alt.local<<"\trelative:"<<mav_alt.relative
-	<<"\n\t>>rel_alt                =("<<rel_alt.data<<")"
-	<<"\n\t>>local_v              =("<<local_v.twist.linear.x<<",\t"<<local_v.twist.linear.y<<",\t"<<local_v.twist.linear.z<<")"
-	<<"\n\t>>body_v             =("<<local_v_body.twist.linear.x<<",\t"<<local_v_body.twist.linear.y<<",\t"<<local_v_body.twist.linear.z<<")"
-	<<"\n\t>>gpsvel               =("<<gpsvel.twist.linear.x<<",\t"<<gpsvel.twist.linear.y<<",\t"<<gpsvel.twist.linear.z<<")"
-	<<"\n\t>>hub_airspd    =(airspeed:"<<hud.airspeed<<",\tgroundspeed:"<<hud.groundspeed<<",\talt:"<<hud.altitude<<")"
-	<<"\n";);								// ROS_INFO_STREAM_THROTTLE(1, "\033[1;32m \033[0m" << local_v);
+					<<"\n\t>>distance="<<distance
+					<<"\n\t>>mission_status"<<mission_status
+					<<"\n\t>>local pos        	=("<<local_pos.pose.position.x<<",\t"<<local_pos.pose.position.y<<",\t"<<local_pos.pose.position.z<<")"
+					<<"\n\t>>local_odom    =("<<local_pos_odom.pose.pose.position.x<<",\t"<<local_pos_odom.pose.pose.position.y<<",\t"<<local_pos_odom.pose.pose.position.z<<")"
+					<<"\n\t>>global_odom =("<<global_pos_odom.pose.pose.position.x<<",\t"<<global_pos_odom.pose.pose.position.y<<",\t"<<global_pos_odom.pose.pose.position.z<<")"
+					<<"\n\t>>gpsraw            	 =("<<gpsraw.alt*0.0004458936-4<<")"
+					<<"\n\t>>mav_alt            =(local:"<<mav_alt.local<<"\trelative:"<<mav_alt.relative
+					<<"\n\t>>rel_alt                =("<<rel_alt.data<<")"
+					<<"\n\t>>local_v              =("<<local_v.twist.linear.x<<",\t"<<local_v.twist.linear.y<<",\t"<<local_v.twist.linear.z<<")"
+					<<"\n\t>>body_v             =("<<local_v_body.twist.linear.x<<",\t"<<local_v_body.twist.linear.y<<",\t"<<local_v_body.twist.linear.z<<")"
+					<<"\n\t>>gpsvel               =("<<gpsvel.twist.linear.x<<",\t"<<gpsvel.twist.linear.y<<",\t"<<gpsvel.twist.linear.z<<")"
+					<<"\n\t>>hub_airspd    =(airspeed:"<<hud.airspeed<<",\tgroundspeed:"<<hud.groundspeed<<",\talt:"<<hud.altitude<<")"
+					<<"\n";);						
 				}
-						else 
-						{		
-							// thrust_pub.
-					data<<"distance < 30\n";
-								distance =sqrt((local_pos.pose.position.x-target.pose.position.x)*(local_pos.pose.position.x-target.pose.position.x)+(local_pos.pose.position.y-target.pose.position.y)*(local_pos.pose.position.y-target.pose.position.y) );
-								// ROS_INFO_STREAM_THROTTLE(1, "\033[1;32m \033[0m" << distance<<"    local_v="<<v);
-								// ROS_INFO_STREAM_THROTTLE(1, "\033[1;32m \033[0m" << local_v);
-									data<<"{{{about to bombing}}}"
-	<<"\n\t>>distance="<<distance
-	<<"\n\t>>mission_status"<<mission_status
-	<<"\n\t>>local pos        	=("<<local_pos.pose.position.x<<",\t"<<local_pos.pose.position.y<<",\t"<<local_pos.pose.position.z<<")"
-	<<"\n\t>>local_odom    =("<<local_pos_odom.pose.pose.position.x<<",\t"<<local_pos_odom.pose.pose.position.y<<",\t"<<local_pos_odom.pose.pose.position.z<<")"
-	<<"\n\t>>global_odom =("<<global_pos_odom.pose.pose.position.x<<",\t"<<global_pos_odom.pose.pose.position.y<<",\t"<<global_pos_odom.pose.pose.position.z<<")"
-	<<"\n\t>>gpsraw            	 =("<<gpsraw.alt*0.0004458936-4<<")"
-	<<"\n\t>>mav_alt            =(local:"<<mav_alt.local<<"\trelative:"<<mav_alt.relative
-	<<"\n\t>>rel_alt                =("<<rel_alt.data<<")"
-	<<"\n\t>>local_v              =("<<local_v.twist.linear.x<<",\t"<<local_v.twist.linear.y<<",\t"<<local_v.twist.linear.z<<")"
-	<<"\n\t>>body_v             =("<<local_v_body.twist.linear.x<<",\t"<<local_v_body.twist.linear.y<<",\t"<<local_v_body.twist.linear.z<<")"
-	<<"\n\t>>gpsvel               =("<<gpsvel.twist.linear.x<<",\t"<<gpsvel.twist.linear.y<<",\t"<<gpsvel.twist.linear.z<<")"
-	<<"\n\t>>hub_airspd    =(airspeed:"<<hud.airspeed<<",\tgroundspeed:"<<hud.groundspeed<<",\talt:"<<hud.altitude<<")"
-	<<"\n";
-								serialPort.write("0a");
-								ROS_INFO("IN >30 SERVO SPINING");
-							//	ros::Duration(2).sleep();
-								data<<"mode=1:write servo spin  after 2 second\n";
-								offb_set_mode.request.custom_mode = "AUTO.MISSION";
-								if (set_mode_client.call(offb_set_mode) && offb_set_mode.response.mode_sent) 
-								{
-								data<<"mode=1:back to mission\n";
-									ROS_WARN("IN >30 AND MODEL MISSION SENT");
-									ROS_INFO("Mission enabled222");
-									// ROS_INFO_STREAM_THROTTLE(1, "\033[1;32m \033[0m" << distance);
-									mission_mode = bombing;
-								}						 
-						}
-				// }
-						ROS_WARN("OUT OF >30 ,IN CASE1");
+				else {		
+					data<<"distance < 37\n";
+					distance =sqrt((local_pos.pose.position.x-target.pose.position.x)*(local_pos.pose.position.x-target.pose.position.x)+(local_pos.pose.position.y-target.pose.position.y)*(local_pos.pose.position.y-target.pose.position.y) );
+					data<<"{{{about to bombing}}}"
+					<<"\n\t>>distance="<<distance
+					<<"\n\t>>mission_status"<<mission_status
+					<<"\n\t>>local pos        	=("<<local_pos.pose.position.x<<",\t"<<local_pos.pose.position.y<<",\t"<<local_pos.pose.position.z<<")"
+					<<"\n\t>>local_odom    =("<<local_pos_odom.pose.pose.position.x<<",\t"<<local_pos_odom.pose.pose.position.y<<",\t"<<local_pos_odom.pose.pose.position.z<<")"
+					<<"\n\t>>global_odom =("<<global_pos_odom.pose.pose.position.x<<",\t"<<global_pos_odom.pose.pose.position.y<<",\t"<<global_pos_odom.pose.pose.position.z<<")"
+					<<"\n\t>>gpsraw            	 =("<<gpsraw.alt*0.0004458936-4<<")"
+					<<"\n\t>>mav_alt            =(local:"<<mav_alt.local<<"\trelative:"<<mav_alt.relative
+					<<"\n\t>>rel_alt                =("<<rel_alt.data<<")"
+					<<"\n\t>>local_v              =("<<local_v.twist.linear.x<<",\t"<<local_v.twist.linear.y<<",\t"<<local_v.twist.linear.z<<")"
+					<<"\n\t>>body_v             =("<<local_v_body.twist.linear.x<<",\t"<<local_v_body.twist.linear.y<<",\t"<<local_v_body.twist.linear.z<<")"
+					<<"\n\t>>gpsvel               =("<<gpsvel.twist.linear.x<<",\t"<<gpsvel.twist.linear.y<<",\t"<<gpsvel.twist.linear.z<<")"
+					<<"\n\t>>hub_airspd    =(airspeed:"<<hud.airspeed<<",\tgroundspeed:"<<hud.groundspeed<<",\talt:"<<hud.altitude<<")"
+					<<"\n";
+					serialPort.write("0a");
+					ROS_INFO("IN >30 SERVO SPINING");
+					data<<"mode=1:write servo spin  after 2 second\n";
+					offb_set_mode.request.custom_mode = "AUTO.MISSION";
+					if (set_mode_client.call(offb_set_mode) && offb_set_mode.response.mode_sent) {
+						data<<"mode=1:back to mission\n";
+						ROS_WARN("IN >30 AND MODEL MISSION SENT");
+						ROS_INFO("Mission enabled222");
+						mission_mode = bombing;
+					}						 
+				}
+				ROS_WARN("OUT OF >30 ,IN CASE1");
 				break;
-			case 3:
+			
+		case 3:
 				distance =sqrt((local_pos.pose.position.x-target.pose.position.x)*(local_pos.pose.position.x-target.pose.position.x)+(local_pos.pose.position.y-target.pose.position.y)*(local_pos.pose.position.y-target.pose.position.y) );
-				// ROS_INFO_STREAM_THROTTLE(1, "\033[1;32m \033[0m" << distance);
-				// if(distance<20){
-				// for(int i=1;i<=1000;i++)
-				// 	 serialPort.write("1\n");
-				// ROS_ERROR("SERVO SPINING !180!!!!");
 				ROS_INFO("mission mode22222");
-				//std::exit(0);
-				// }
-			break;
-}
+				break;
+		}
+		
 		ros::spinOnce();
 		rate.sleep();
-}}
+	}
+}
