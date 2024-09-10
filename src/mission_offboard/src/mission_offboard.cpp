@@ -173,7 +173,7 @@ int main(int argc, char** argv) {
 
 
 	//初始化ROS节点并设置订阅器和发布器
-	ros::init(argc, argv, "mission_bombing");
+	ros::init(argc, argv, "mission_offboard");
 	ros::NodeHandle nh;
 	ros::Subscriber rcin_sub = nh.subscribe<mavros_msgs::RCIn>("/mavros/rc/in", 1, rcin_sb);
 	ros::Subscriber wayRea_sub = nh.subscribe<mavros_msgs::WaypointReached>("/mavros/mission/reached", 1, wayRea_sb);
